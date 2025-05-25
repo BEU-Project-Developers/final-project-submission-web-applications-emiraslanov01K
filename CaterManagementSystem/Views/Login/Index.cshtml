@@ -1,0 +1,96 @@
+﻿<!-- Modal Search Start -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex align-items-center">
+                <div class="input-group w-75 mx-auto d-flex">
+                    <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                    <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Search End -->
+<!-- Hero Start -->
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Login</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item text-dark" aria-current="page">Login to access all features</li>
+        </ol>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- Login Section Start -->
+<div class="container-fluid contact py-6">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-1">
+                <img src="img/background-site.jpg" class="img-fluid h-100 w-100 rounded-start" style="object-fit: cover; opacity: 0.7;" alt="">
+            </div>
+            <div class="col-10">
+                <div class="border-bottom border-top border-primary bg-light py-5 px-4">
+                    <div class="text-center">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Login</small>
+                        <h1 class="display-5 mb-5">Welcome Back</h1>
+                    </div>
+                    <div class="row g-4 form">
+                        <div class="col-md-6 mx-auto">
+                            <form id="loginForm">
+                                <div class="mb-3">
+                                    <input type="text" id="username" class="form-control border-primary p-2" placeholder="Username" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" id="password" class="form-control border-primary p-2" placeholder="Password" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                                </div>
+                                <div class="text-center">
+                                    <a asp-controller="Home" asp-action="Index" class="btn-like-link">Login</a>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p>Don't have an account? <a asp-controller="SignUp" asp-action="Index" class="text-primary">Sign Up</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="img/background-site.jpg" class="img-fluid h-100 w-100 rounded-end" style="object-fit: cover; opacity: 0.7;" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Login Section End -->
+
+<style>
+    .btn-like-link {
+        display: inline-block;
+        padding: 0.5rem 1.5rem;
+        background-color: #D4A762;
+        color: white !important;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+    }
+
+        .btn-like-link:hover {
+            background-color: #c09555;
+            color: white;
+            text-decoration: none;
+        }
+</style>

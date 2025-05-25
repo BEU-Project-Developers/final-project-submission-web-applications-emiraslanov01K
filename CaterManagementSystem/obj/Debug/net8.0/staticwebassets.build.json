@@ -1,0 +1,5172 @@
+{
+  "Version": 1,
+  "Hash": "Lv9wvjmv9V0L6ckFrCbBO/K/ugfmQk0wauGBdAaMwKQ=",
+  "Source": "CaterManagementSystem",
+  "BasePath": "_content/CaterManagementSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CaterManagementSystem\\wwwroot",
+      "Source": "CaterManagementSystem",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "CaterManagementSystem#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "ctp7t6t53h",
+      "Integrity": "cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "CaterManagementSystem#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "ctp7t6t53h",
+      "Integrity": "cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6jfzfmmfo",
+      "Integrity": "JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m5uax8zgu8",
+      "Integrity": "1jfkwp/11rXKiTNcW0jgX81BfIXjGwhm3+LuwVk5+Jw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/01#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cehpje02fm",
+      "Integrity": "VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\01.html"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ua31ovw157",
+      "Integrity": "CgXtRpBA7JDbbFQHzasJE6gNgXkJluO4xj4cuiatxQQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/about#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5oeqw72yuj",
+      "Integrity": "xQiugUBGe2cfgK5PV5ab5jI2H9w9K4MDafoob6fxiZs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\about.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/background-site#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dsjy9qsje9",
+      "Integrity": "rWm6OcGrDgAaUjiLEkHQxVq1S3XH9KrD7qUIUkgONl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\background-site.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/blog-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "930r5ao0qo",
+      "Integrity": "NUYh9P53Zf5Xjo9tq+kZmi3pQXftgq0GMc0qCKWLYP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/blog-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gn04m6bmgz",
+      "Integrity": "TLoxhXiW8sQ3UQm8ViBNeIv9F86jxv47uQFqVLcfGPw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/blog-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dgfpryi8a7",
+      "Integrity": "gwLZlfoKDKuoLTv4a0i96CtIvoECbBU0ayO+jn0D9OU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7hvngi9bfu",
+      "Integrity": "G+cVuIh4l38noYcFGsBBcuUFbbV2ZKvG0O6s/J3TIes=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aadr9ien42",
+      "Integrity": "/rK/Ogts75XzONlHSxNfiHj6ei4oIEj/4LsGLoR1KTE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "edlq7x0v4h",
+      "Integrity": "sjmnP4uK5aQ6RI7jlfopPpjjpQSIu6lHFEvHnI3niRE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pbo29z54pm",
+      "Integrity": "pUzC0IP2PUBWrTwp8kN4EDhG/am1Xj2k5yePkKeWREc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0kthkjr33j",
+      "Integrity": "4N9XWx7635tb6ZUM5kEWWODvWMYWkaptcKq1P9ERz6E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7p6de9bu20",
+      "Integrity": "KyVj68hK+PQAE8RHhtRNSubgXnh13PJsLJWhnhZwSUw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "27m4khx8bp",
+      "Integrity": "XtGaSrQaiTBnDVjsHTrlKW9Qln32PzIvLLD/6e9hWD8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/event-8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fjq8wggu3d",
+      "Integrity": "WxjYenTDHB06+AX9uLgo63o8qb8MEiz3fIdpcEh1/JI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\event-8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/fact#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "08ttp2cm44",
+      "Integrity": "0IVyrsm7+v2ncYsJnthgI7UbPihkFVwQxe5XXd4EDpk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fact.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/hero#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nfa2rmi078",
+      "Integrity": "rStas860EEXt/vIudAtiCQ2V5yFh7sOAFfHeIZw62QU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hero.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-01#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n643teplqu",
+      "Integrity": "EcN75+O8ipjw3iWaf0wlyJpDoHZpChEd7YVgxKLNWlk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-01.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-02#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "81oxpijruw",
+      "Integrity": "FNf67PEK0hXpU2y4XGoKhynNMETt6qnkoEKJ6EX2dOM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-02.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-03#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ywr69dtpha",
+      "Integrity": "0t8n1HwXZQkay/WGGMrloYf+1oVm/4EOjjaINNhP0pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-03.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-04#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b8n0dljxnl",
+      "Integrity": "m4asj5mNQbI3FNHAXZctcNWyBjj/UWbVYDFD88c+1/4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-04.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-05#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ajwgwenfec",
+      "Integrity": "tlBDnrh0+q8N8Fv2m9kqSjvSN47lD9x66+SNpOubFC8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-05.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-06#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6p9unwum2w",
+      "Integrity": "ZhzJ3J7RP4Pv4GuYhh4qk/4fgRJ9fUTxVu5x9XHTQWg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-06.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-07#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wtnd8godaz",
+      "Integrity": "HD72RAjZWTTnyp/V0JBQXKFIbs8ORcVgRLcp5mb7Nuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-07.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-08#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6x4sg2i6dg",
+      "Integrity": "FgCbQFJuV/aBU/MTH/qFst0/lc31HqXEqo3kQ9IYo0A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-08.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/menu-09#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7wwkg76t0v",
+      "Integrity": "efCo135Xtee844y8ufA8XIE/JCeXLCNwLwDNdMFJ0Ik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu-09.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/team-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qbw7lfe7vg",
+      "Integrity": "ZhC1AujzEJ45JizKM2ADB2vdm1b/nwgx9OuhPFvCKhg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\team-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/team-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0kjzcidiaz",
+      "Integrity": "QE7pFPtxqhbiHDaG4zgBPgRZ4VXPjbloy3xsiFKQqJs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\team-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/team-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1doiv5ool4",
+      "Integrity": "K4HekwBtb46EFKhYxzO8KsZL6vqI1abLzZbxVl4hfec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\team-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/team-4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wydgz3mfj3",
+      "Integrity": "SEYjA0bzLIzVrEgXlih7fX7ttiFvQoaN9UmgffNCXYM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\team-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/testimonial-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4jl423pdzf",
+      "Integrity": "AETH8b+x3PovJCYDKHqNDeacE85FptgLQNYC378vHHo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/testimonial-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xgdyq0humx",
+      "Integrity": "T50nX9/IvlCWnQzb6CjCiatv84G3Oip4otOVBG2u9Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/testimonial-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0d8ovc28r1",
+      "Integrity": "rHAVHb5PQTWiqa7YqVZxjldN2n+qOMm6qeLsQNGPdqI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "img/testimonial-4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ejv2rfoaa3",
+      "Integrity": "1lwcJIXNTmynn3xuGGdDWwbKy4O2g0CQVFs5s38uF48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fnxdjngssw",
+      "Integrity": "ZWVOh98r/hjO+dT2XSYXwrZdUo+uvmGRWKKykR6Zyoc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/animate/animate.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "591ybqkhud",
+      "Integrity": "2U2YrENpqdsD57QEBEW5ItcaRqsAZfM9sh8VfoQ2xt0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/counterup/counterup.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r1hye14rqe",
+      "Integrity": "z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/easing/easing.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s1z0o21rrk",
+      "Integrity": "kB64DMP4wnT+ZxG9AjiEJYg5YQySdAgqSIH3HiIGtPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/lightbox/css/lightbox.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cgkztlecp5",
+      "Integrity": "tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/lightbox/images/loading#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q2kedgtjvx",
+      "Integrity": "Ilqoi2qwLAYiLslGjWLhX6GI45zblDHR9VQBrTgHU+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/lightbox/js/lightbox.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy66rzsxr7",
+      "Integrity": "TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/owlcarousel/owl.carousel.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwb7iqx7gx",
+      "Integrity": "AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/owlcarousel/owl.carousel.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s074n47mk6",
+      "Integrity": "jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/owlcarousel/owl.video.play#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cehpje02fm",
+      "Integrity": "VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.video.play.html"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/waypoints/waypoints.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uydiqv09h2",
+      "Integrity": "No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
+      "SourceId": "CaterManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CaterManagementSystem",
+      "RelativePath": "lib/wow/wow.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v5kyrhpytd",
+      "Integrity": "bXYAixEupwCRnp7B75ePbEqNfpTM9FlJIEhmJdbzZIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "CaterManagementSystem.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k="
+        }
+      ]
+    },
+    {
+      "Route": "CaterManagementSystem.ctp7t6t53h.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ctp7t6t53h"
+        },
+        {
+          "Name": "label",
+          "Value": "CaterManagementSystem.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k="
+        }
+      ]
+    },
+    {
+      "Route": "CaterManagementSystem.ctp7t6t53h.styles.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ctp7t6t53h"
+        },
+        {
+          "Name": "label",
+          "Value": "CaterManagementSystem.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k="
+        }
+      ]
+    },
+    {
+      "Route": "CaterManagementSystem.styles.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.j6jfzfmmfo.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6jfzfmmfo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1jfkwp/11rXKiTNcW0jgX81BfIXjGwhm3+LuwVk5+Jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1jfkwp/11rXKiTNcW0jgX81BfIXjGwhm3+LuwVk5+Jw="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.m5uax8zgu8.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1jfkwp/11rXKiTNcW0jgX81BfIXjGwhm3+LuwVk5+Jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m5uax8zgu8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1jfkwp/11rXKiTNcW0jgX81BfIXjGwhm3+LuwVk5+Jw="
+        }
+      ]
+    },
+    {
+      "Route": "img/01.cehpje02fm.html",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:05:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cehpje02fm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/01.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU="
+        }
+      ]
+    },
+    {
+      "Route": "img/01.html",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:05:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU="
+        }
+      ]
+    },
+    {
+      "Route": "img/1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "254388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CgXtRpBA7JDbbFQHzasJE6gNgXkJluO4xj4cuiatxQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:04:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CgXtRpBA7JDbbFQHzasJE6gNgXkJluO4xj4cuiatxQQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.ua31ovw157.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "254388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CgXtRpBA7JDbbFQHzasJE6gNgXkJluO4xj4cuiatxQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:04:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ua31ovw157"
+        },
+        {
+          "Name": "label",
+          "Value": "img/1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CgXtRpBA7JDbbFQHzasJE6gNgXkJluO4xj4cuiatxQQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/about.5oeqw72yuj.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xQiugUBGe2cfgK5PV5ab5jI2H9w9K4MDafoob6fxiZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5oeqw72yuj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/about.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xQiugUBGe2cfgK5PV5ab5jI2H9w9K4MDafoob6fxiZs="
+        }
+      ]
+    },
+    {
+      "Route": "img/about.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xQiugUBGe2cfgK5PV5ab5jI2H9w9K4MDafoob6fxiZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xQiugUBGe2cfgK5PV5ab5jI2H9w9K4MDafoob6fxiZs="
+        }
+      ]
+    },
+    {
+      "Route": "img/background-site.dsjy9qsje9.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rWm6OcGrDgAaUjiLEkHQxVq1S3XH9KrD7qUIUkgONl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dsjy9qsje9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/background-site.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rWm6OcGrDgAaUjiLEkHQxVq1S3XH9KrD7qUIUkgONl4="
+        }
+      ]
+    },
+    {
+      "Route": "img/background-site.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rWm6OcGrDgAaUjiLEkHQxVq1S3XH9KrD7qUIUkgONl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rWm6OcGrDgAaUjiLEkHQxVq1S3XH9KrD7qUIUkgONl4="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-1.930r5ao0qo.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NUYh9P53Zf5Xjo9tq+kZmi3pQXftgq0GMc0qCKWLYP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "930r5ao0qo"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blog-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NUYh9P53Zf5Xjo9tq+kZmi3pQXftgq0GMc0qCKWLYP4="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NUYh9P53Zf5Xjo9tq+kZmi3pQXftgq0GMc0qCKWLYP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NUYh9P53Zf5Xjo9tq+kZmi3pQXftgq0GMc0qCKWLYP4="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-2.gn04m6bmgz.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLoxhXiW8sQ3UQm8ViBNeIv9F86jxv47uQFqVLcfGPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gn04m6bmgz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blog-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLoxhXiW8sQ3UQm8ViBNeIv9F86jxv47uQFqVLcfGPw="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLoxhXiW8sQ3UQm8ViBNeIv9F86jxv47uQFqVLcfGPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLoxhXiW8sQ3UQm8ViBNeIv9F86jxv47uQFqVLcfGPw="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-3.dgfpryi8a7.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gwLZlfoKDKuoLTv4a0i96CtIvoECbBU0ayO+jn0D9OU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgfpryi8a7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blog-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gwLZlfoKDKuoLTv4a0i96CtIvoECbBU0ayO+jn0D9OU="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gwLZlfoKDKuoLTv4a0i96CtIvoECbBU0ayO+jn0D9OU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gwLZlfoKDKuoLTv4a0i96CtIvoECbBU0ayO+jn0D9OU="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-1.7hvngi9bfu.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+cVuIh4l38noYcFGsBBcuUFbbV2ZKvG0O6s/J3TIes=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7hvngi9bfu"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+cVuIh4l38noYcFGsBBcuUFbbV2ZKvG0O6s/J3TIes="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+cVuIh4l38noYcFGsBBcuUFbbV2ZKvG0O6s/J3TIes=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+cVuIh4l38noYcFGsBBcuUFbbV2ZKvG0O6s/J3TIes="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-2.aadr9ien42.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/rK/Ogts75XzONlHSxNfiHj6ei4oIEj/4LsGLoR1KTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aadr9ien42"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rK/Ogts75XzONlHSxNfiHj6ei4oIEj/4LsGLoR1KTE="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/rK/Ogts75XzONlHSxNfiHj6ei4oIEj/4LsGLoR1KTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rK/Ogts75XzONlHSxNfiHj6ei4oIEj/4LsGLoR1KTE="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-3.edlq7x0v4h.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72381"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sjmnP4uK5aQ6RI7jlfopPpjjpQSIu6lHFEvHnI3niRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "edlq7x0v4h"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sjmnP4uK5aQ6RI7jlfopPpjjpQSIu6lHFEvHnI3niRE="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72381"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sjmnP4uK5aQ6RI7jlfopPpjjpQSIu6lHFEvHnI3niRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sjmnP4uK5aQ6RI7jlfopPpjjpQSIu6lHFEvHnI3niRE="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pUzC0IP2PUBWrTwp8kN4EDhG/am1Xj2k5yePkKeWREc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pUzC0IP2PUBWrTwp8kN4EDhG/am1Xj2k5yePkKeWREc="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-4.pbo29z54pm.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pUzC0IP2PUBWrTwp8kN4EDhG/am1Xj2k5yePkKeWREc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pbo29z54pm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pUzC0IP2PUBWrTwp8kN4EDhG/am1Xj2k5yePkKeWREc="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-5.0kthkjr33j.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4N9XWx7635tb6ZUM5kEWWODvWMYWkaptcKq1P9ERz6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0kthkjr33j"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4N9XWx7635tb6ZUM5kEWWODvWMYWkaptcKq1P9ERz6E="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-5.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4N9XWx7635tb6ZUM5kEWWODvWMYWkaptcKq1P9ERz6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4N9XWx7635tb6ZUM5kEWWODvWMYWkaptcKq1P9ERz6E="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-6.7p6de9bu20.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87988"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KyVj68hK+PQAE8RHhtRNSubgXnh13PJsLJWhnhZwSUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7p6de9bu20"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KyVj68hK+PQAE8RHhtRNSubgXnh13PJsLJWhnhZwSUw="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-6.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87988"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KyVj68hK+PQAE8RHhtRNSubgXnh13PJsLJWhnhZwSUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KyVj68hK+PQAE8RHhtRNSubgXnh13PJsLJWhnhZwSUw="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-7.27m4khx8bp.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XtGaSrQaiTBnDVjsHTrlKW9Qln32PzIvLLD/6e9hWD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "27m4khx8bp"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XtGaSrQaiTBnDVjsHTrlKW9Qln32PzIvLLD/6e9hWD8="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-7.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XtGaSrQaiTBnDVjsHTrlKW9Qln32PzIvLLD/6e9hWD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XtGaSrQaiTBnDVjsHTrlKW9Qln32PzIvLLD/6e9hWD8="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-8.fjq8wggu3d.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WxjYenTDHB06+AX9uLgo63o8qb8MEiz3fIdpcEh1/JI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fjq8wggu3d"
+        },
+        {
+          "Name": "label",
+          "Value": "img/event-8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WxjYenTDHB06+AX9uLgo63o8qb8MEiz3fIdpcEh1/JI="
+        }
+      ]
+    },
+    {
+      "Route": "img/event-8.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WxjYenTDHB06+AX9uLgo63o8qb8MEiz3fIdpcEh1/JI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WxjYenTDHB06+AX9uLgo63o8qb8MEiz3fIdpcEh1/JI="
+        }
+      ]
+    },
+    {
+      "Route": "img/fact.08ttp2cm44.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0IVyrsm7+v2ncYsJnthgI7UbPihkFVwQxe5XXd4EDpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "08ttp2cm44"
+        },
+        {
+          "Name": "label",
+          "Value": "img/fact.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0IVyrsm7+v2ncYsJnthgI7UbPihkFVwQxe5XXd4EDpk="
+        }
+      ]
+    },
+    {
+      "Route": "img/fact.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0IVyrsm7+v2ncYsJnthgI7UbPihkFVwQxe5XXd4EDpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0IVyrsm7+v2ncYsJnthgI7UbPihkFVwQxe5XXd4EDpk="
+        }
+      ]
+    },
+    {
+      "Route": "img/hero.nfa2rmi078.png",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rStas860EEXt/vIudAtiCQ2V5yFh7sOAFfHeIZw62QU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nfa2rmi078"
+        },
+        {
+          "Name": "label",
+          "Value": "img/hero.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rStas860EEXt/vIudAtiCQ2V5yFh7sOAFfHeIZw62QU="
+        }
+      ]
+    },
+    {
+      "Route": "img/hero.png",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rStas860EEXt/vIudAtiCQ2V5yFh7sOAFfHeIZw62QU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rStas860EEXt/vIudAtiCQ2V5yFh7sOAFfHeIZw62QU="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-01.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcN75+O8ipjw3iWaf0wlyJpDoHZpChEd7YVgxKLNWlk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcN75+O8ipjw3iWaf0wlyJpDoHZpChEd7YVgxKLNWlk="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-01.n643teplqu.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcN75+O8ipjw3iWaf0wlyJpDoHZpChEd7YVgxKLNWlk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n643teplqu"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-01.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcN75+O8ipjw3iWaf0wlyJpDoHZpChEd7YVgxKLNWlk="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-02.81oxpijruw.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNf67PEK0hXpU2y4XGoKhynNMETt6qnkoEKJ6EX2dOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81oxpijruw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-02.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNf67PEK0hXpU2y4XGoKhynNMETt6qnkoEKJ6EX2dOM="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-02.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNf67PEK0hXpU2y4XGoKhynNMETt6qnkoEKJ6EX2dOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNf67PEK0hXpU2y4XGoKhynNMETt6qnkoEKJ6EX2dOM="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-03.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0t8n1HwXZQkay/WGGMrloYf+1oVm/4EOjjaINNhP0pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0t8n1HwXZQkay/WGGMrloYf+1oVm/4EOjjaINNhP0pg="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-03.ywr69dtpha.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0t8n1HwXZQkay/WGGMrloYf+1oVm/4EOjjaINNhP0pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ywr69dtpha"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-03.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0t8n1HwXZQkay/WGGMrloYf+1oVm/4EOjjaINNhP0pg="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-04.b8n0dljxnl.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4asj5mNQbI3FNHAXZctcNWyBjj/UWbVYDFD88c+1/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b8n0dljxnl"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-04.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4asj5mNQbI3FNHAXZctcNWyBjj/UWbVYDFD88c+1/4="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-04.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4asj5mNQbI3FNHAXZctcNWyBjj/UWbVYDFD88c+1/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4asj5mNQbI3FNHAXZctcNWyBjj/UWbVYDFD88c+1/4="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-05.ajwgwenfec.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tlBDnrh0+q8N8Fv2m9kqSjvSN47lD9x66+SNpOubFC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajwgwenfec"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-05.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tlBDnrh0+q8N8Fv2m9kqSjvSN47lD9x66+SNpOubFC8="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-05.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tlBDnrh0+q8N8Fv2m9kqSjvSN47lD9x66+SNpOubFC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tlBDnrh0+q8N8Fv2m9kqSjvSN47lD9x66+SNpOubFC8="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-06.6p9unwum2w.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZhzJ3J7RP4Pv4GuYhh4qk/4fgRJ9fUTxVu5x9XHTQWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6p9unwum2w"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-06.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZhzJ3J7RP4Pv4GuYhh4qk/4fgRJ9fUTxVu5x9XHTQWg="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-06.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZhzJ3J7RP4Pv4GuYhh4qk/4fgRJ9fUTxVu5x9XHTQWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZhzJ3J7RP4Pv4GuYhh4qk/4fgRJ9fUTxVu5x9XHTQWg="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-07.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HD72RAjZWTTnyp/V0JBQXKFIbs8ORcVgRLcp5mb7Nuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HD72RAjZWTTnyp/V0JBQXKFIbs8ORcVgRLcp5mb7Nuo="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-07.wtnd8godaz.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HD72RAjZWTTnyp/V0JBQXKFIbs8ORcVgRLcp5mb7Nuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wtnd8godaz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-07.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HD72RAjZWTTnyp/V0JBQXKFIbs8ORcVgRLcp5mb7Nuo="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-08.6x4sg2i6dg.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgCbQFJuV/aBU/MTH/qFst0/lc31HqXEqo3kQ9IYo0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6x4sg2i6dg"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-08.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgCbQFJuV/aBU/MTH/qFst0/lc31HqXEqo3kQ9IYo0A="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-08.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgCbQFJuV/aBU/MTH/qFst0/lc31HqXEqo3kQ9IYo0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgCbQFJuV/aBU/MTH/qFst0/lc31HqXEqo3kQ9IYo0A="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-09.7wwkg76t0v.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"efCo135Xtee844y8ufA8XIE/JCeXLCNwLwDNdMFJ0Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7wwkg76t0v"
+        },
+        {
+          "Name": "label",
+          "Value": "img/menu-09.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-efCo135Xtee844y8ufA8XIE/JCeXLCNwLwDNdMFJ0Ik="
+        }
+      ]
+    },
+    {
+      "Route": "img/menu-09.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"efCo135Xtee844y8ufA8XIE/JCeXLCNwLwDNdMFJ0Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-efCo135Xtee844y8ufA8XIE/JCeXLCNwLwDNdMFJ0Ik="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZhC1AujzEJ45JizKM2ADB2vdm1b/nwgx9OuhPFvCKhg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZhC1AujzEJ45JizKM2ADB2vdm1b/nwgx9OuhPFvCKhg="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-1.qbw7lfe7vg.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZhC1AujzEJ45JizKM2ADB2vdm1b/nwgx9OuhPFvCKhg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qbw7lfe7vg"
+        },
+        {
+          "Name": "label",
+          "Value": "img/team-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZhC1AujzEJ45JizKM2ADB2vdm1b/nwgx9OuhPFvCKhg="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-2.0kjzcidiaz.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QE7pFPtxqhbiHDaG4zgBPgRZ4VXPjbloy3xsiFKQqJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0kjzcidiaz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/team-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QE7pFPtxqhbiHDaG4zgBPgRZ4VXPjbloy3xsiFKQqJs="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QE7pFPtxqhbiHDaG4zgBPgRZ4VXPjbloy3xsiFKQqJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QE7pFPtxqhbiHDaG4zgBPgRZ4VXPjbloy3xsiFKQqJs="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-3.1doiv5ool4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K4HekwBtb46EFKhYxzO8KsZL6vqI1abLzZbxVl4hfec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1doiv5ool4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/team-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K4HekwBtb46EFKhYxzO8KsZL6vqI1abLzZbxVl4hfec="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K4HekwBtb46EFKhYxzO8KsZL6vqI1abLzZbxVl4hfec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K4HekwBtb46EFKhYxzO8KsZL6vqI1abLzZbxVl4hfec="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SEYjA0bzLIzVrEgXlih7fX7ttiFvQoaN9UmgffNCXYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SEYjA0bzLIzVrEgXlih7fX7ttiFvQoaN9UmgffNCXYM="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-4.wydgz3mfj3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SEYjA0bzLIzVrEgXlih7fX7ttiFvQoaN9UmgffNCXYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wydgz3mfj3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/team-4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SEYjA0bzLIzVrEgXlih7fX7ttiFvQoaN9UmgffNCXYM="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-1.4jl423pdzf.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AETH8b+x3PovJCYDKHqNDeacE85FptgLQNYC378vHHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4jl423pdzf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/testimonial-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AETH8b+x3PovJCYDKHqNDeacE85FptgLQNYC378vHHo="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AETH8b+x3PovJCYDKHqNDeacE85FptgLQNYC378vHHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AETH8b+x3PovJCYDKHqNDeacE85FptgLQNYC378vHHo="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T50nX9/IvlCWnQzb6CjCiatv84G3Oip4otOVBG2u9Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T50nX9/IvlCWnQzb6CjCiatv84G3Oip4otOVBG2u9Bs="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-2.xgdyq0humx.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T50nX9/IvlCWnQzb6CjCiatv84G3Oip4otOVBG2u9Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgdyq0humx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/testimonial-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T50nX9/IvlCWnQzb6CjCiatv84G3Oip4otOVBG2u9Bs="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-3.0d8ovc28r1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHAVHb5PQTWiqa7YqVZxjldN2n+qOMm6qeLsQNGPdqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0d8ovc28r1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/testimonial-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHAVHb5PQTWiqa7YqVZxjldN2n+qOMm6qeLsQNGPdqI="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHAVHb5PQTWiqa7YqVZxjldN2n+qOMm6qeLsQNGPdqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHAVHb5PQTWiqa7YqVZxjldN2n+qOMm6qeLsQNGPdqI="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-4.ejv2rfoaa3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1lwcJIXNTmynn3xuGGdDWwbKy4O2g0CQVFs5s38uF48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ejv2rfoaa3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/testimonial-4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lwcJIXNTmynn3xuGGdDWwbKy4O2g0CQVFs5s38uF48="
+        }
+      ]
+    },
+    {
+      "Route": "img/testimonial-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1lwcJIXNTmynn3xuGGdDWwbKy4O2g0CQVFs5s38uF48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lwcJIXNTmynn3xuGGdDWwbKy4O2g0CQVFs5s38uF48="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.fnxdjngssw.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWVOh98r/hjO+dT2XSYXwrZdUo+uvmGRWKKykR6Zyoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fnxdjngssw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWVOh98r/hjO+dT2XSYXwrZdUo+uvmGRWKKykR6Zyoc="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWVOh98r/hjO+dT2XSYXwrZdUo+uvmGRWKKykR6Zyoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWVOh98r/hjO+dT2XSYXwrZdUo+uvmGRWKKykR6Zyoc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/animate/animate.min.591ybqkhud.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2U2YrENpqdsD57QEBEW5ItcaRqsAZfM9sh8VfoQ2xt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "591ybqkhud"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/animate/animate.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2U2YrENpqdsD57QEBEW5ItcaRqsAZfM9sh8VfoQ2xt0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/animate/animate.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2U2YrENpqdsD57QEBEW5ItcaRqsAZfM9sh8VfoQ2xt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2U2YrENpqdsD57QEBEW5ItcaRqsAZfM9sh8VfoQ2xt0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/counterup/counterup.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/counterup/counterup.min.r1hye14rqe.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1hye14rqe"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/counterup/counterup.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/easing/easing.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kB64DMP4wnT+ZxG9AjiEJYg5YQySdAgqSIH3HiIGtPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kB64DMP4wnT+ZxG9AjiEJYg5YQySdAgqSIH3HiIGtPs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/easing/easing.min.s1z0o21rrk.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kB64DMP4wnT+ZxG9AjiEJYg5YQySdAgqSIH3HiIGtPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s1z0o21rrk"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/easing/easing.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kB64DMP4wnT+ZxG9AjiEJYg5YQySdAgqSIH3HiIGtPs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/lightbox/css/lightbox.min.cgkztlecp5.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cgkztlecp5"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/lightbox/css/lightbox.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c="
+        }
+      ]
+    },
+    {
+      "Route": "lib/lightbox/css/lightbox.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c="
+        }
+      ]
+    },
+    {
+      "Route": "lib/lightbox/images/loading.gif",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ilqoi2qwLAYiLslGjWLhX6GI45zblDHR9VQBrTgHU+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ilqoi2qwLAYiLslGjWLhX6GI45zblDHR9VQBrTgHU+0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/lightbox/images/loading.q2kedgtjvx.gif",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ilqoi2qwLAYiLslGjWLhX6GI45zblDHR9VQBrTgHU+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q2kedgtjvx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/lightbox/images/loading.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ilqoi2qwLAYiLslGjWLhX6GI45zblDHR9VQBrTgHU+0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/lightbox/js/lightbox.min.cy66rzsxr7.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy66rzsxr7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/lightbox/js/lightbox.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/lightbox/js/lightbox.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.carousel.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.carousel.min.gwb7iqx7gx.css",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwb7iqx7gx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/owlcarousel/owl.carousel.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.carousel.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.carousel.min.s074n47mk6.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s074n47mk6"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/owlcarousel/owl.carousel.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.video.play.cehpje02fm.html",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:05:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cehpje02fm"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/owlcarousel/owl.video.play.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.video.play.html",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 11:05:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VI/hYCUGwyFLuczIltfB0yvurBjT9Rw3roJhZ+F7WCU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/waypoints/waypoints.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/waypoints/waypoints.min.uydiqv09h2.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uydiqv09h2"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/waypoints/waypoints.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/wow/wow.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bXYAixEupwCRnp7B75ePbEqNfpTM9FlJIEhmJdbzZIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bXYAixEupwCRnp7B75ePbEqNfpTM9FlJIEhmJdbzZIY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/wow/wow.min.v5kyrhpytd.js",
+      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bXYAixEupwCRnp7B75ePbEqNfpTM9FlJIEhmJdbzZIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v5kyrhpytd"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/wow/wow.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bXYAixEupwCRnp7B75ePbEqNfpTM9FlJIEhmJdbzZIY="
+        }
+      ]
+    }
+  ]
+}

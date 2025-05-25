@@ -1,0 +1,221 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CaterManagementSystem.ctp7t6t53h.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
+      "PackagePath": "staticwebassets\\img\\01.html"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "PackagePath": "staticwebassets\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
+      "PackagePath": "staticwebassets\\img\\background-site.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
+      "PackagePath": "staticwebassets\\img\\event-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
+      "PackagePath": "staticwebassets\\img\\event-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
+      "PackagePath": "staticwebassets\\img\\event-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
+      "PackagePath": "staticwebassets\\img\\event-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
+      "PackagePath": "staticwebassets\\img\\event-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
+      "PackagePath": "staticwebassets\\img\\event-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
+      "PackagePath": "staticwebassets\\img\\event-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
+      "PackagePath": "staticwebassets\\img\\event-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
+      "PackagePath": "staticwebassets\\img\\fact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
+      "PackagePath": "staticwebassets\\img\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CaterManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CaterManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CaterManagementSystem.props",
+      "PackagePath": "build\\CaterManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CaterManagementSystem.props",
+      "PackagePath": "buildMultiTargeting\\CaterManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CaterManagementSystem.props",
+      "PackagePath": "buildTransitive\\CaterManagementSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

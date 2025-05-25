@@ -1,0 +1,605 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\signup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\signup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\custom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\custom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\readmore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\readmore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\models\\authority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\models\\authority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\models\\userauthority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\models\\userauthority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\models\\custombooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\models\\custombooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\models\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\models\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\customcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\customcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\readmorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\readmorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|c:\\users\\kamran\\documents\\c# projects uni\\catermanagementsystem\\catermanagementsystem\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F11EEA-BF25-4E45-9F09-B1B561B89897}|CaterManagementSystem\\CaterManagementSystem.csproj|solutionrelative:catermanagementsystem\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\ReadMore\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\ReadMore\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\ReadMore\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\ReadMore\\Index.cshtml",
+              "ViewState": "AgIAAOEBAAAAAAAAAAAiwPIBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T15:02:17.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAkwKIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T11:58:48.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAAEECAAAAAAAAAADwv08CAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:26:51.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Service\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Service\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwHwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:26:15.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Testimonial\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Testimonial\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Testimonial\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Testimonial\\Index.cshtml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAIwPsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:50:20.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\SignUp\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\SignUp\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\SignUp\\Index.cshtml*",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\SignUp\\Index.cshtml*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T18:26:23.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:33:38.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAC0CAAAAAAAAAADwv0oCAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:44:21.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Custom\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Custom\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Custom\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Custom\\Index.cshtml",
+              "ViewState": "AgIAAAICAAAAAAAAAADwv0YCAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T07:45:46.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Event\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Event\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Event\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Event\\Index.cshtml",
+              "ViewState": "AgIAAK4BAAAAAAAAAAAkwMQBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:29:12.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAANQFAAAAAAAAAAAkwOgFAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T11:21:11.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAkwLEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T11:16:59.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAF8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T17:39:38.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\Booking.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Models\\Booking.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:30:30.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomBooking.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\CustomBooking.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Models\\CustomBooking.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\CustomBooking.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Models\\CustomBooking.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:30:56.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Authority.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\Authority.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Models\\Authority.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\Authority.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Models\\Authority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:31:31.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserAuthority.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\UserAuthority.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Models\\UserAuthority.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\UserAuthority.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Models\\UserAuthority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:32:05.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\SignUpController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\SignUpController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T18:26:14.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\appsettings.json",
+              "RelativeToolTip": "CaterManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-04T17:33:48.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:39:24.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Testimonial.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\Testimonial.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Models\\Testimonial.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\Testimonial.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Models\\Testimonial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:29:45.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Models\\User.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Models\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:25:50.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:58:33.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\TestimonialController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\TestimonialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:50:11.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:42:58.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:26:45.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Team\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Team\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Team\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Team\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwEcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T14:45:22.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:30:30.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\TeamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:45:15.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CaterManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T11:23:26.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CustomController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\CustomController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\CustomController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\CustomController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\CustomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:45:32.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\EventController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:29:04.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReadMoreController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\ReadMoreController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\ReadMoreController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\ReadMoreController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\ReadMoreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:02:02.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:30:23.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:19:33.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "CaterManagementSystem\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "CaterManagementSystem\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:26:07.822Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
