@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lv9wvjmv9V0L6ckFrCbBO/K/ugfmQk0wauGBdAaMwKQ=",
+  "Hash": "CJOUV45fedekSj29ZKwO/popS4Eh5Sm4ZvshP4zBwNE=",
   "Source": "CaterManagementSystem",
   "BasePath": "_content/CaterManagementSystem",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CaterManagementSystem\\wwwroot",
       "Source": "CaterManagementSystem",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "CaterManagementSystem#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "CaterManagementSystem#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "cKOfJs94HmIeW8WNACqwaV32DLekwmSzGwFe6YHTG0k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j6jfzfmmfo",
-      "Integrity": "JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs=",
+      "Fingerprint": "igzmds0psy",
+      "Integrity": "ArpfKwftPEQxNSavWEVdJFGuLuxgEJfSKN7D90otcO4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\css\\style.css",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "css/style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\01.html",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/01#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\01.html"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/about#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/background-site#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\img\\background-site.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/blog-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/blog-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/blog-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/event-8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\event-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/fact#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fact.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\hero.png",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/hero#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hero.png"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-01#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-01.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-02#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-02.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-03#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-03.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-04#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-04.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-05#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-05.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-06#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-06.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-07#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-07.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-08#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-08.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/menu-09#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menu-09.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/team-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/team-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/team-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/team-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/testimonial-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/testimonial-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/testimonial-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "img/testimonial-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\js\\main.js",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "js/main#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/animate/animate.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/counterup/counterup.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -871,17 +871,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r1hye14rqe",
-      "Integrity": "z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg=",
+      "Fingerprint": "o68q7h1m8r",
+      "Integrity": "8IZHke5ZFz4kG+PUgwKXVVAJYVKSyfwefEz4eRVum4A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\counterup\\counterup.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/easing/easing.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/lightbox/css/lightbox.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\lightbox\\css\\lightbox.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/lightbox/images/loading#[.{fingerprint}]?.gif",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\lightbox\\images\\loading.gif"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/lightbox/js/lightbox.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -955,17 +955,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cy66rzsxr7",
-      "Integrity": "TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs=",
+      "Fingerprint": "wgw13v6nsg",
+      "Integrity": "oDlGHax0vDZr1gmQdBUBGQu34Vqbl9oIcix5nIGSkrs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\lightbox\\js\\lightbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/owlcarousel/owl.carousel.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -976,17 +976,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gwb7iqx7gx",
-      "Integrity": "AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I=",
+      "Fingerprint": "qd71s3x2bl",
+      "Integrity": "Ygw168+e1ramhvR+qN+us1e3FCOLJiZgfIZK1pQlneQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/owlcarousel/owl.carousel.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -997,17 +997,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s074n47mk6",
-      "Integrity": "jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I=",
+      "Fingerprint": "5gwl64m2r3",
+      "Integrity": "hc0CEa0sW9x0IS3h7F5JGM4MaG3UM43p0PAIxKEWAEI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/owlcarousel/owl.video.play#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.video.play.html"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/waypoints/waypoints.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1039,17 +1039,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uydiqv09h2",
-      "Integrity": "No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=",
+      "Fingerprint": "8otopfxis6",
+      "Integrity": "yG4YOZXULQac31AedgVWLAgc16rDt3mr4/aa9xfU3Uc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
+      "Identity": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
       "SourceId": "CaterManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\",
       "BasePath": "_content/CaterManagementSystem",
       "RelativePath": "lib/wow/wow.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1070,7 +1070,7 @@
   "Endpoints": [
     {
       "Route": "CaterManagementSystem.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1091,7 +1091,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1107,7 +1107,7 @@
     },
     {
       "Route": "CaterManagementSystem.ctp7t6t53h.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1128,7 +1128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1152,7 +1152,7 @@
     },
     {
       "Route": "CaterManagementSystem.ctp7t6t53h.styles.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1173,7 +1173,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1197,7 +1197,7 @@
     },
     {
       "Route": "CaterManagementSystem.styles.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CaterManagementSystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1218,7 +1218,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:24:40 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1234,7 +1234,7 @@
     },
     {
       "Route": "css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1243,7 +1243,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "166406"
+          "Value": "166411"
         },
         {
           "Name": "Content-Type",
@@ -1251,11 +1251,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs=\""
+          "Value": "\"ArpfKwftPEQxNSavWEVdJFGuLuxgEJfSKN7D90otcO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1265,13 +1265,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs="
+          "Value": "sha256-ArpfKwftPEQxNSavWEVdJFGuLuxgEJfSKN7D90otcO4="
         }
       ]
     },
     {
-      "Route": "css/bootstrap.min.j6jfzfmmfo.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
+      "Route": "css/bootstrap.min.igzmds0psy.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1280,7 +1280,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "166406"
+          "Value": "166411"
         },
         {
           "Name": "Content-Type",
@@ -1288,11 +1288,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs=\""
+          "Value": "\"ArpfKwftPEQxNSavWEVdJFGuLuxgEJfSKN7D90otcO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1302,7 +1302,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j6jfzfmmfo"
+          "Value": "igzmds0psy"
         },
         {
           "Name": "label",
@@ -1310,13 +1310,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs="
+          "Value": "sha256-ArpfKwftPEQxNSavWEVdJFGuLuxgEJfSKN7D90otcO4="
         }
       ]
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1337,7 +1337,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1353,7 @@
     },
     {
       "Route": "css/style.m5uax8zgu8.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1374,7 +1374,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1398,7 @@
     },
     {
       "Route": "img/01.cehpje02fm.html",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\01.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1419,7 +1419,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:05:08 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1443,7 +1443,7 @@
     },
     {
       "Route": "img/01.html",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\01.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1464,7 +1464,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:05:08 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1480,7 +1480,7 @@
     },
     {
       "Route": "img/1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1501,7 +1501,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 09:04:41 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,7 +1517,7 @@
     },
     {
       "Route": "img/1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.ua31ovw157.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1538,7 +1538,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 09:04:41 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1562,7 +1562,7 @@
     },
     {
       "Route": "img/about.5oeqw72yuj.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1583,7 +1583,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1607,7 +1607,7 @@
     },
     {
       "Route": "img/about.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1628,7 +1628,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1644,7 +1644,7 @@
     },
     {
       "Route": "img/background-site.dsjy9qsje9.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1665,7 +1665,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1689,7 +1689,7 @@
     },
     {
       "Route": "img/background-site.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1710,7 +1710,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1726,7 +1726,7 @@
     },
     {
       "Route": "img/blog-1.930r5ao0qo.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1747,7 +1747,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1771,7 +1771,7 @@
     },
     {
       "Route": "img/blog-1.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1792,7 +1792,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1808,7 +1808,7 @@
     },
     {
       "Route": "img/blog-2.gn04m6bmgz.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1829,7 +1829,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1853,7 +1853,7 @@
     },
     {
       "Route": "img/blog-2.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1874,7 +1874,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1890,7 +1890,7 @@
     },
     {
       "Route": "img/blog-3.dgfpryi8a7.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1911,7 +1911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1935,7 +1935,7 @@
     },
     {
       "Route": "img/blog-3.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1956,7 +1956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1972,7 +1972,7 @@
     },
     {
       "Route": "img/event-1.7hvngi9bfu.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1993,7 +1993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2017,7 +2017,7 @@
     },
     {
       "Route": "img/event-1.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2038,7 +2038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2054,7 +2054,7 @@
     },
     {
       "Route": "img/event-2.aadr9ien42.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2075,7 +2075,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2099,7 +2099,7 @@
     },
     {
       "Route": "img/event-2.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2120,7 +2120,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2136,7 +2136,7 @@
     },
     {
       "Route": "img/event-3.edlq7x0v4h.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2157,7 +2157,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2181,7 +2181,7 @@
     },
     {
       "Route": "img/event-3.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2202,7 +2202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2218,7 +2218,7 @@
     },
     {
       "Route": "img/event-4.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2239,7 +2239,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2255,7 +2255,7 @@
     },
     {
       "Route": "img/event-4.pbo29z54pm.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2276,7 +2276,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2300,7 +2300,7 @@
     },
     {
       "Route": "img/event-5.0kthkjr33j.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2321,7 +2321,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2345,7 +2345,7 @@
     },
     {
       "Route": "img/event-5.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2366,7 +2366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2382,7 +2382,7 @@
     },
     {
       "Route": "img/event-6.7p6de9bu20.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2403,7 +2403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2427,7 +2427,7 @@
     },
     {
       "Route": "img/event-6.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2448,7 +2448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2464,7 +2464,7 @@
     },
     {
       "Route": "img/event-7.27m4khx8bp.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2485,7 +2485,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2509,7 +2509,7 @@
     },
     {
       "Route": "img/event-7.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2530,7 +2530,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2546,7 +2546,7 @@
     },
     {
       "Route": "img/event-8.fjq8wggu3d.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2567,7 +2567,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2591,7 +2591,7 @@
     },
     {
       "Route": "img/event-8.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2612,7 +2612,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2628,7 +2628,7 @@
     },
     {
       "Route": "img/fact.08ttp2cm44.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2649,7 +2649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2673,7 +2673,7 @@
     },
     {
       "Route": "img/fact.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2694,7 +2694,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2710,7 +2710,7 @@
     },
     {
       "Route": "img/hero.nfa2rmi078.png",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\hero.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2731,7 +2731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2755,7 +2755,7 @@
     },
     {
       "Route": "img/hero.png",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\hero.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2776,7 +2776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2792,7 +2792,7 @@
     },
     {
       "Route": "img/menu-01.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2813,7 +2813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2829,7 +2829,7 @@
     },
     {
       "Route": "img/menu-01.n643teplqu.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2850,7 +2850,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2874,7 +2874,7 @@
     },
     {
       "Route": "img/menu-02.81oxpijruw.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2895,7 +2895,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2919,7 +2919,7 @@
     },
     {
       "Route": "img/menu-02.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2940,7 +2940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2956,7 +2956,7 @@
     },
     {
       "Route": "img/menu-03.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2977,7 +2977,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2993,7 +2993,7 @@
     },
     {
       "Route": "img/menu-03.ywr69dtpha.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3014,7 +3014,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3038,7 +3038,7 @@
     },
     {
       "Route": "img/menu-04.b8n0dljxnl.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3059,7 +3059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3083,7 +3083,7 @@
     },
     {
       "Route": "img/menu-04.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3104,7 +3104,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3120,7 +3120,7 @@
     },
     {
       "Route": "img/menu-05.ajwgwenfec.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3141,7 +3141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3165,7 +3165,7 @@
     },
     {
       "Route": "img/menu-05.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3186,7 +3186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3202,7 +3202,7 @@
     },
     {
       "Route": "img/menu-06.6p9unwum2w.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3223,7 +3223,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3247,7 +3247,7 @@
     },
     {
       "Route": "img/menu-06.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3268,7 +3268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3284,7 +3284,7 @@
     },
     {
       "Route": "img/menu-07.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3305,7 +3305,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3321,7 +3321,7 @@
     },
     {
       "Route": "img/menu-07.wtnd8godaz.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3342,7 +3342,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3366,7 +3366,7 @@
     },
     {
       "Route": "img/menu-08.6x4sg2i6dg.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3387,7 +3387,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3411,7 +3411,7 @@
     },
     {
       "Route": "img/menu-08.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3432,7 +3432,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3448,7 +3448,7 @@
     },
     {
       "Route": "img/menu-09.7wwkg76t0v.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3469,7 +3469,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3493,7 +3493,7 @@
     },
     {
       "Route": "img/menu-09.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3514,7 +3514,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3530,7 +3530,7 @@
     },
     {
       "Route": "img/team-1.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3551,7 +3551,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3567,7 +3567,7 @@
     },
     {
       "Route": "img/team-1.qbw7lfe7vg.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3588,7 +3588,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3612,7 +3612,7 @@
     },
     {
       "Route": "img/team-2.0kjzcidiaz.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3633,7 +3633,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3657,7 +3657,7 @@
     },
     {
       "Route": "img/team-2.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3678,7 +3678,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3694,7 +3694,7 @@
     },
     {
       "Route": "img/team-3.1doiv5ool4.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3715,7 +3715,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3739,7 +3739,7 @@
     },
     {
       "Route": "img/team-3.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3760,7 +3760,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3776,7 +3776,7 @@
     },
     {
       "Route": "img/team-4.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3797,7 +3797,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3813,7 +3813,7 @@
     },
     {
       "Route": "img/team-4.wydgz3mfj3.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3834,7 +3834,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3858,7 +3858,7 @@
     },
     {
       "Route": "img/testimonial-1.4jl423pdzf.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3879,7 +3879,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3903,7 +3903,7 @@
     },
     {
       "Route": "img/testimonial-1.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3924,7 +3924,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3940,7 +3940,7 @@
     },
     {
       "Route": "img/testimonial-2.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3961,7 +3961,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3977,7 +3977,7 @@
     },
     {
       "Route": "img/testimonial-2.xgdyq0humx.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3998,7 +3998,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4022,7 +4022,7 @@
     },
     {
       "Route": "img/testimonial-3.0d8ovc28r1.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4043,7 +4043,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4067,7 +4067,7 @@
     },
     {
       "Route": "img/testimonial-3.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4088,7 +4088,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4104,7 +4104,7 @@
     },
     {
       "Route": "img/testimonial-4.ejv2rfoaa3.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4125,7 +4125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4149,7 +4149,7 @@
     },
     {
       "Route": "img/testimonial-4.jpg",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4170,7 +4170,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4186,7 +4186,7 @@
     },
     {
       "Route": "js/main.fnxdjngssw.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4207,7 +4207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4231,7 +4231,7 @@
     },
     {
       "Route": "js/main.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4252,7 +4252,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4268,7 +4268,7 @@
     },
     {
       "Route": "lib/animate/animate.min.591ybqkhud.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4289,7 +4289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4313,7 +4313,7 @@
     },
     {
       "Route": "lib/animate/animate.min.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4334,7 +4334,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4350,7 +4350,7 @@
     },
     {
       "Route": "lib/counterup/counterup.min.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4359,7 +4359,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2406"
+          "Value": "2417"
         },
         {
           "Name": "Content-Type",
@@ -4367,11 +4367,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg=\""
+          "Value": "\"8IZHke5ZFz4kG+PUgwKXVVAJYVKSyfwefEz4eRVum4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4381,13 +4381,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg="
+          "Value": "sha256-8IZHke5ZFz4kG+PUgwKXVVAJYVKSyfwefEz4eRVum4A="
         }
       ]
     },
     {
-      "Route": "lib/counterup/counterup.min.r1hye14rqe.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Route": "lib/counterup/counterup.min.o68q7h1m8r.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4396,7 +4396,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2406"
+          "Value": "2417"
         },
         {
           "Name": "Content-Type",
@@ -4404,11 +4404,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg=\""
+          "Value": "\"8IZHke5ZFz4kG+PUgwKXVVAJYVKSyfwefEz4eRVum4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4418,7 +4418,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r1hye14rqe"
+          "Value": "o68q7h1m8r"
         },
         {
           "Name": "label",
@@ -4426,13 +4426,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg="
+          "Value": "sha256-8IZHke5ZFz4kG+PUgwKXVVAJYVKSyfwefEz4eRVum4A="
         }
       ]
     },
     {
       "Route": "lib/easing/easing.min.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4453,7 +4453,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4469,7 +4469,7 @@
     },
     {
       "Route": "lib/easing/easing.min.s1z0o21rrk.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4490,7 +4490,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4514,7 +4514,7 @@
     },
     {
       "Route": "lib/lightbox/css/lightbox.min.cgkztlecp5.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4535,7 +4535,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4559,7 +4559,7 @@
     },
     {
       "Route": "lib/lightbox/css/lightbox.min.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4580,7 +4580,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4596,7 +4596,7 @@
     },
     {
       "Route": "lib/lightbox/images/loading.gif",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4617,7 +4617,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4633,7 +4633,7 @@
     },
     {
       "Route": "lib/lightbox/images/loading.q2kedgtjvx.gif",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4654,7 +4654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4677,8 +4677,8 @@
       ]
     },
     {
-      "Route": "lib/lightbox/js/lightbox.min.cy66rzsxr7.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Route": "lib/lightbox/js/lightbox.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4687,7 +4687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9754"
+          "Value": "9768"
         },
         {
           "Name": "Content-Type",
@@ -4695,11 +4695,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs=\""
+          "Value": "\"oDlGHax0vDZr1gmQdBUBGQu34Vqbl9oIcix5nIGSkrs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oDlGHax0vDZr1gmQdBUBGQu34Vqbl9oIcix5nIGSkrs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/lightbox/js/lightbox.min.wgw13v6nsg.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oDlGHax0vDZr1gmQdBUBGQu34Vqbl9oIcix5nIGSkrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4709,7 +4746,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cy66rzsxr7"
+          "Value": "wgw13v6nsg"
         },
         {
           "Name": "label",
@@ -4717,13 +4754,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs="
+          "Value": "sha256-oDlGHax0vDZr1gmQdBUBGQu34Vqbl9oIcix5nIGSkrs="
         }
       ]
     },
     {
-      "Route": "lib/lightbox/js/lightbox.min.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Route": "lib/owlcarousel/owl.carousel.min.5gwl64m2r3.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4732,7 +4769,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9754"
+          "Value": "40545"
         },
         {
           "Name": "Content-Type",
@@ -4740,85 +4777,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs=\""
+          "Value": "\"hc0CEa0sW9x0IS3h7F5JGM4MaG3UM43p0PAIxKEWAEI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/owlcarousel/owl.carousel.min.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2937"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/owlcarousel/owl.carousel.min.gwb7iqx7gx.css",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2937"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4828,89 +4791,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gwb7iqx7gx"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/owlcarousel/owl.carousel.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/owlcarousel/owl.carousel.min.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40540"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/owlcarousel/owl.carousel.min.s074n47mk6.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40540"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s074n47mk6"
+          "Value": "5gwl64m2r3"
         },
         {
           "Name": "label",
@@ -4918,13 +4799,132 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I="
+          "Value": "sha256-hc0CEa0sW9x0IS3h7F5JGM4MaG3UM43p0PAIxKEWAEI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.carousel.min.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ygw168+e1ramhvR+qN+us1e3FCOLJiZgfIZK1pQlneQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ygw168+e1ramhvR+qN+us1e3FCOLJiZgfIZK1pQlneQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.carousel.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hc0CEa0sW9x0IS3h7F5JGM4MaG3UM43p0PAIxKEWAEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hc0CEa0sW9x0IS3h7F5JGM4MaG3UM43p0PAIxKEWAEI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/owlcarousel/owl.carousel.min.qd71s3x2bl.css",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ygw168+e1ramhvR+qN+us1e3FCOLJiZgfIZK1pQlneQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qd71s3x2bl"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/owlcarousel/owl.carousel.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ygw168+e1ramhvR+qN+us1e3FCOLJiZgfIZK1pQlneQ="
         }
       ]
     },
     {
       "Route": "lib/owlcarousel/owl.video.play.cehpje02fm.html",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4945,7 +4945,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:05:09 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4969,7 +4969,7 @@
     },
     {
       "Route": "lib/owlcarousel/owl.video.play.html",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4990,7 +4990,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 11:05:09 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5005,8 +5005,8 @@
       ]
     },
     {
-      "Route": "lib/waypoints/waypoints.min.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Route": "lib/waypoints/waypoints.min.8otopfxis6.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5015,7 +5015,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9028"
+          "Value": "9034"
         },
         {
           "Name": "Content-Type",
@@ -5023,48 +5023,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=\""
+          "Value": "\"yG4YOZXULQac31AedgVWLAgc16rDt3mr4/aa9xfU3Uc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/waypoints/waypoints.min.uydiqv09h2.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9028"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5074,7 +5037,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "uydiqv09h2"
+          "Value": "8otopfxis6"
         },
         {
           "Name": "label",
@@ -5082,13 +5045,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw="
+          "Value": "sha256-yG4YOZXULQac31AedgVWLAgc16rDt3mr4/aa9xfU3Uc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/waypoints/waypoints.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yG4YOZXULQac31AedgVWLAgc16rDt3mr4/aa9xfU3Uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yG4YOZXULQac31AedgVWLAgc16rDt3mr4/aa9xfU3Uc="
         }
       ]
     },
     {
       "Route": "lib/wow/wow.min.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5109,7 +5109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5125,7 +5125,7 @@
     },
     {
       "Route": "lib/wow/wow.min.v5kyrhpytd.js",
-      "AssetFile": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
+      "AssetFile": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5146,7 +5146,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Oct 2023 04:29:19 GMT"
+          "Value": "Tue, 27 May 2025 06:49:48 GMT"
         },
         {
           "Name": "Cache-Control",

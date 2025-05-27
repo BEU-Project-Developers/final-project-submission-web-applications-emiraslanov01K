@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E9mW8b6vI/8=",
+  "dgSpecHash": "nPYRFbi5kS4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kamran\\Documents\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\CaterManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\CaterManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kamran\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Kamran\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

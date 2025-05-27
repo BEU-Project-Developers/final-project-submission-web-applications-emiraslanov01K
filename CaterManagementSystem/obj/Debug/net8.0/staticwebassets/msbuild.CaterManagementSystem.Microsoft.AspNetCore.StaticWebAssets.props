@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j6jfzfmmfo</Fingerprint>
-      <Integrity>JXKQpG7jsn2huTy8kFZc64zLmmwGQ9l9cIbListgADs=</Integrity>
+      <Fingerprint>igzmds0psy</Fingerprint>
+      <Integrity>ArpfKwftPEQxNSavWEVdJFGuLuxgEJfSKN7D90otcO4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</OriginalItemSpec>
@@ -714,8 +714,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r1hye14rqe</Fingerprint>
-      <Integrity>z/xYR8yWHm047eCUf54OllDJJSFmA2BGhkfVmUSnVjg=</Integrity>
+      <Fingerprint>o68q7h1m8r</Fingerprint>
+      <Integrity>8IZHke5ZFz4kG+PUgwKXVVAJYVKSyfwefEz4eRVum4A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\counterup\counterup.min.js'))</OriginalItemSpec>
@@ -786,8 +786,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cy66rzsxr7</Fingerprint>
-      <Integrity>TDAA/HYea7i2C/VZwZ7kw0mTTUAoDVup9sMJ9KlVhbs=</Integrity>
+      <Fingerprint>wgw13v6nsg</Fingerprint>
+      <Integrity>oDlGHax0vDZr1gmQdBUBGQu34Vqbl9oIcix5nIGSkrs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\lightbox\js\lightbox.min.js'))</OriginalItemSpec>
@@ -804,8 +804,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gwb7iqx7gx</Fingerprint>
-      <Integrity>AAJgOvywxDoePgP+erATZd9IV3C8CYiyQz7F663SM3I=</Integrity>
+      <Fingerprint>qd71s3x2bl</Fingerprint>
+      <Integrity>Ygw168+e1ramhvR+qN+us1e3FCOLJiZgfIZK1pQlneQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\owlcarousel\owl.carousel.min.css'))</OriginalItemSpec>
@@ -822,8 +822,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s074n47mk6</Fingerprint>
-      <Integrity>jPMpRMb4XHN6iUq+/0pfIzZYUWb2p4wshXfpo9JSO7I=</Integrity>
+      <Fingerprint>5gwl64m2r3</Fingerprint>
+      <Integrity>hc0CEa0sW9x0IS3h7F5JGM4MaG3UM43p0PAIxKEWAEI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\owlcarousel\owl.carousel.min.js'))</OriginalItemSpec>
@@ -858,8 +858,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uydiqv09h2</Fingerprint>
-      <Integrity>No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=</Integrity>
+      <Fingerprint>8otopfxis6</Fingerprint>
+      <Integrity>yG4YOZXULQac31AedgVWLAgc16rDt3mr4/aa9xfU3Uc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\waypoints\waypoints.min.js'))</OriginalItemSpec>
