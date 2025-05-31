@@ -1,0 +1,90 @@
+﻿@model CaterManagementSystem.ViewModels.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!-- Modal Search Start -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- ... (sizin modal kodunuz) ... -->
+</div>
+<!-- Modal Search End -->
+<!-- Hero Start -->
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Login</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item text-dark" aria-current="page">Login to access all features</li>
+        </ol>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- Login Section Start -->
+<div class="container-fluid contact py-6">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-1">
+                <img src="~/img/background-site.jpg" class="img-fluid h-100 w-100 rounded-start" style="object-fit: cover; opacity: 0.7;" alt="">
+            </div>
+            <div class="col-10">
+                <div class="border-bottom border-top border-primary bg-light py-5 px-4">
+                    <div class="text-center">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Login</small>
+                        <h1 class="display-5 mb-5">Welcome Back</h1>
+                    </div>
+
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success text-center">
+                            @TempData["SuccessMessage"]
+                        </div>
+                    }
+
+                    <div class="row g-4 form">
+                        <div class="col-md-6 mx-auto">
+                            <form asp-action="Login" asp-controller="Account" method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                                @Html.AntiForgeryToken()
+                                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                                <div class="mb-3">
+                                    <input asp-for="EmailOrUserName" class="form-control border-primary p-2" placeholder="Username or Email">
+                                    <span asp-validation-for="EmailOrUserName" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <input asp-for="Password" class="form-control border-primary p-2" placeholder="Password">
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input asp-for="RememberMe" class="form-check-input">
+                                    <label class="form-check-label" asp-for="RememberMe"></label>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn-like-link">Login</button>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p>Don't have an account? <a asp-controller="Account" asp-action="Register" class="text-primary">Sign Up</a></p>
+                                    @* <p><a asp-action="ForgotPassword" class="text-primary">Forgot your password?</a></p> *@
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="~/img/background-site.jpg" class="img-fluid h-100 w-100 rounded-end" style="object-fit: cover; opacity: 0.7;" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Login Section End -->
+
+<style>
+    .btn-like-link {
+        /* ... (sizin CSS kodunuz) ... */
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

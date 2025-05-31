@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaterManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be6b469522b2909b7f72b47fd04758df70db236e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efafd00320f6fe48bc7b285cd531009038e02d30")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaterManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaterManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,10 +1,12 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@using System.Security.Claims <!-- Bu sətri faylın ən başına əlavə edin -->
 
+<!DOCTYPE html>
+<html lang="en">
 
 <!-- Mirrored from themewagon.github.io/CaterServ/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 May 2025 11:04:50 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
 <head>
     <meta charset="utf-8">
     <title>CaterServ - Catering Services Website Template</title>
@@ -15,32 +17,38 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;family=Playball&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.15.4/css/all.css" />
-    <link href="../../cdn.jsdelivr.net/npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    @* Linkləri Razor sintaksisinə uyğunlaşdırın *@
+    <link rel="stylesheet" href="~/lib/fontawesome-free/css/all.min.css" /> @* Yerli fayla dəyişdirin və ya CDN qalsın *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> @* Düzgün yol owl.carousel.min.css olmalıdır *@
+
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-
+    <!-- Spinner Start -->
+    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
     <!-- Navbar start -->
     <div class="container-fluid nav-bar">
         <div class="container">
             <nav class="navbar navbar-light navbar-expand-lg py-4">
-                <a href="index.html" class="navbar-brand">
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand">
                     <h1 class="text-primary fw-bold mb-0">Cater<span class="text-dark">Serv</span> </h1>
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -48,7 +56,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
-                        <a asp-controller="Home" asp-action="Index" class="nav-item nav-link active">Home</a>
+                        <a asp-controller="Home" asp-action="Index" class="nav-item nav-link">Home</a>
                         <a asp-controller="About" asp-action="Index" class="nav-item nav-link">About</a>
                         <a asp-controller="Service" asp-action="Index" class="nav-item nav-link">Services</a>
                         <a asp-controller="Event" asp-action="Index" class="nav-item nav-link">Events</a>
@@ -64,22 +72,29 @@
                             </div>
                         </div>
                         <a asp-controller="Contact" asp-action="Index" class="nav-item nav-link">Contact</a>
-                        <a asp-controller="Login" asp-action="Index" class="nav-item nav-link">Login</a>
-                        <a asp-controller="SignUp" asp-action="Index" class="nav-item nav-link">Sign Up</a>
+
+                        @if (User.Identity != null && User.Identity.IsAuthenticated)
+                        {
+                            <span class="nav-item nav-link text-dark">Salam, @User.Identity.Name!</span>
+                            <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="form-inline">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="nav-item nav-link btn btn-link text-primary" style="border:none; background:none; padding-left:0; padding-right:0;">Çıxış</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login" class="nav-item nav-link">Login</a>
+                            <a asp-controller="Account" asp-action="Register" class="nav-item nav-link">Sign Up</a>
+                        }
                     </div>
 
-
-                  
                     <a asp-controller="Booking" asp-action="Index" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
                 </div>
             </nav>
         </div>
     </div>
     <!-- Navbar End -->
-
-
     @RenderBody()
-
 
     <!-- Footer Start -->
     <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
@@ -89,7 +104,6 @@
                     <div class="footer-item">
                         <h1 class="text-primary">Cater<span class="text-dark">Serv</span></h1>
                         <p class="lh-lg mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
-                     
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -119,22 +133,22 @@
                         <h4 class="mb-4">Social Gallery</h4>
                         <div class="row g-2">
                             <div class="col-4">
-                                <img src="img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                <img src="~/img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                <img src="~/img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                <img src="~/img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                <img src="~/img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                <img src="~/img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                             </div>
                             <div class="col-4">
-                                <img src="img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                <img src="~/img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
                             </div>
                         </div>
                     </div>
@@ -151,9 +165,6 @@
                     <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
                 </div>
                 <div class="col-md-6 my-auto text-center text-md-end text-white">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                     Designed By <a class="border-bottom" href="https://htmlcodex.com/">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com/">ThemeWagon</a>
                 </div>
             </div>
@@ -165,23 +176,27 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../../cdn.jsdelivr.net/npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.css"></script>
-    <script src="lib/owlcarousel/owl.video.play.html"></script>
-    <script src="lib/animate/animate.min.css"></script>
-    <script src="lib/lightbox/css/lightbox.min.css"></script>
-    <script src="lib/lightbox/images/loading.gif"></script>
+    @* URL-ləri ~/ ilə başlayan Razor sintaksisinə çevirin *@
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> @* Və ya yerli jquery istifadə edin *@
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/counterup/counterup.min.js"></script>
+    <script src="~/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    @* Aşağıdakı skriptlər və CSS-lər təkrar və ya yanlış görünür, onları yoxlayın *@
+    @* <script src="lib/owlcarousel/owl.carousel.min.css"></script> *@
+    @* <script src="lib/owlcarousel/owl.video.play.html"></script> *@
+    @* <script src="lib/animate/animate.min.css"></script> *@
+    @* <script src="lib/lightbox/css/lightbox.min.css"></script> *@
+    @* <script src="lib/lightbox/images/loading.gif"></script> *@
 
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="~/js/main.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false) <!-- Bu sətri əlavə edin -->
 </body>
 
 <!-- Mirrored from themewagon.github.io/CaterServ/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 May 2025 11:05:06 GMT -->

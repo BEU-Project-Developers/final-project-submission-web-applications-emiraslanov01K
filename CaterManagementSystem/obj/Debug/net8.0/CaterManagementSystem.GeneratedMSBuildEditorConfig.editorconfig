@@ -1,19 +1,11 @@
 is_global = true
 build_property.TargetFramework = net8.0
-build_property.TargetFramework = net8.0
-build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CaterManagementSystem
 build_property.RootNamespace = CaterManagementSystem
@@ -27,71 +19,3 @@ build_property.MSBuildProjectDirectory = C:\Users\Kamran\source\repos\final-proj
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/About/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Booking/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Contact/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Custom/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Event/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Menu/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/ReadMore/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZE1vcmVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Service/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/SignUp/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Team/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Testimonial/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kamran/source/repos/final-project-submission-web-applications-emiraslanov01K/CaterManagementSystem/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-00sweqnpdy

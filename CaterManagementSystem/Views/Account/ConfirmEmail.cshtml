@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "E-poçt Təsdiqləmə Nəticəsi";
+}
+<div class="container text-center py-5">
+    <h1 class="display-4">E-poçt Təsdiqləməsi</h1>
+    @if (ViewBag.Message != null)
+    {
+        <p class="lead @(ViewBag.Message.ToString().Contains("uğurla") ? "text-success" : "text-danger")">
+            @ViewBag.Message
+        </p>
+    }
+    else
+    {
+        <p class="lead text-warning">Təsdiqləmə nəticəsi məlum deyil.</p>
+    }
+
+    @if (ViewBag.Message != null && ViewBag.Message.ToString().Contains("uğurla təsdiqləndi"))
+    {
+        <a asp-action="Login" asp-controller="Account" class="btn btn-success mt-3">Daxil Ol</a>
+    }
+    else
+    {
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-3">Əsas Səhifəyə Qayıt</a>
+    }
+</div>

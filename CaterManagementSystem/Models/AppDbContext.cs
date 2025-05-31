@@ -1,7 +1,9 @@
-﻿// Models/AppDbContext.cs
+﻿
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations;
+using SchoolSystem.Models;
 
-namespace CateringService.Models
+namespace CaterManagementSystem.Models // Namespace-i düzəltdik
 {
     public class AppDbContext : DbContext
     {
@@ -10,23 +12,15 @@ namespace CateringService.Models
         }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Testimonial> Testimonials { get; set; }
-        public DbSet<Booking> Bookings { get; set; }
-        public DbSet<CustomBooking> CustomBookings { get; set; }
-        public DbSet<Authority> Authorities { get; set; }
-        public DbSet<UserAuthority> UserAuthorities { get; set; }
+        public DbSet<Role> Role { get; set; }
+        public DbSet<UserDetails> UserDetails { get; set; }
+        public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<About> About { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<GalleryImage> GalleryImages { get; set; }
+        public DbSet<MenuItem> MenuItems { get; set; }
+        public DbSet<TeamMember> TeamMembers { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Configure composite primary key for UserAuthority
-            modelBuilder.Entity<UserAuthority>()
-                .HasKey(ua => new { ua.UserId, ua.AuthorityId });
 
-            // Configure one-to-one relationship between Booking and CustomBooking
-            modelBuilder.Entity<Booking>()
-                .HasOne(b => b.CustomBooking)
-                .WithOne(cb => cb.Booking)
-                .HasForeignKey<CustomBooking>(cb => cb.BookingId);
-        }
     }
 }

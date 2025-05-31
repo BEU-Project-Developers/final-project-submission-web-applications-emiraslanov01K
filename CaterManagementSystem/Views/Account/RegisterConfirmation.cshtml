@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Qeydiyyat Təsdiqi";
+}
+<div class="container text-center py-5">
+    <h1 class="display-4">Qeydiyyatınız Demək Olar ki Tamamlandı!</h1>
+    <p class="lead">
+        Hesabınızı aktivləşdirmək üçün e-poçt ünvanınıza təsdiqləmə linki göndərdik.
+        Zəhmət olmasa e-poçt qutunuzu (spam/junk qovluğunu da) yoxlayın.
+    </p>
+    <p>
+        Əgər bir neçə dəqiqə ərzində e-poçt almasanız, zəhmət olmasa <a asp-action="Register" asp-controller="Account">yenidən qeydiyyatdan keçməyə</a> cəhd edin və ya dəstək ilə əlaqə saxlayın.
+    </p>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-3">Əsas Səhifəyə Qayıt</a>
+</div>

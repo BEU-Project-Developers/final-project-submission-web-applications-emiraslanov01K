@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\CaterManagementSystem.csproj": {}
+    "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\CaterManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\CaterManagementSystem.csproj": {
+    "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\CaterManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\CaterManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\CaterManagementSystem.csproj",
         "projectName": "CaterManagementSystem",
-        "projectPath": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\CaterManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamran\\Source\\Repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\",
+        "projectPath": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\CaterManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\Baku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Baku\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +51,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -63,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
             }
           },
           "imports": [
