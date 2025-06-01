@@ -1,0 +1,72 @@
+﻿@model CaterManagementSystem.Models.ServiceDescription
+@{
+    var pageTitle = Model?.Service?.Title ?? Model?.Title ?? "Xidmət Detalları";
+    ViewData["Title"] = pageTitle;
+}
+
+<!-- Modal Search (Optional, could be in _Layout.cshtml) -->
+<!-- ... (Modal HTML from Index can be copied here or put in _Layout) ... -->
+<!-- Hero Start (for Service Details Page) -->
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">@(Model?.Service?.Title ?? "Xidmət Detalları")</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+            <li class="breadcrumb-item"><a asp-controller="Service" asp-action="Index">Xidmətlər</a></li>
+            <li class="breadcrumb-item text-dark active" aria-current="page">Detallar</li>
+        </ol>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- Service Details Content Start -->
+<div class="container-fluid py-6">
+    <div class="container">
+        @if (Model != null)
+        {
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="mb-0">@Model.Title</h3> @* Bu, ServiceDescription.Title-dır *@
+                        </div>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-4">Xidmət Adı:</dt>
+                                <dd class="col-sm-8">@(Model.Service?.Title)</dd>
+
+                                <dt class="col-sm-4">Tipik Qonaq Sayı:</dt>
+                                <dd class="col-sm-8">@Model.GuestCount qonaq</dd>
+
+                                <dt class="col-sm-4">Adambaşına Qiymət (Təxmini):</dt>
+                                <dd class="col-sm-8">@Model.PerPersonPay AZN</dd>
+
+                                <dt class="col-sm-4">Planlama Müddəti:</dt>
+                                <dd class="col-sm-8">@Model.DateWithMonths ay</dd>
+
+                                <!-- ServiceDescription modelinə əlavə detallar əlavə edə bilərsiniz -->
+                                @*
+                                <dt class="col-sm-12 mt-3">Ətraflı Məlumat:</dt>
+                                <dd class="col-sm-12">@Model.FullDetailedDescription</dd>
+                                *@
+                            </dl>
+                            <hr />
+                            <p>
+                                Daha spesifik suallarınız və ya bu xidməti sifariş etmək üçün bizimlə əlaqə saxlayın.
+                            </p>
+                            <a asp-controller="Contact" asp-action="Index" class="btn btn-primary rounded-pill px-4">Bizimlə Əlaqə</a>
+                            <a asp-controller="Service" asp-action="Index" class="btn btn-secondary rounded-pill px-4 ms-2">Xidmətlərə Qayıt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else // Bu blok normalda controller tərəfindən idarə olunmalıdır (NotFound və ya DetailsComingSoon)
+        {
+            <div class="alert alert-warning text-center" role="alert">
+                Bu xidmət üçün ətraflı məlumat hazırda mövcud deyil.
+                Zəhmət olmasa <a asp-controller="Service" asp-action="Index" class="alert-link">xidmətlər siyahımıza qayıdın</a>.
+            </div>
+        }
+    </div>
+</div>
+<!-- Service Details Content End -->

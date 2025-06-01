@@ -1,0 +1,104 @@
+﻿@model IEnumerable<CaterManagementSystem.Areas.Admin.ViewModels.UserViewModel>
+@using System.Security.Claims
+@{
+    ViewData["Title"] = "İstifadəçilər";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"]</h4>
+                        @* Admin panelindən yeni istifadəçi yaratmaq adətən olmur,
+                           amma ehtiyac varsa, Create action-ı yaradıb link əlavə edə bilərsiniz.
+                        <p>
+                            <a asp-action="Create" class="btn btn-success">
+                                <i class="mdi mdi-account-plus-outline"></i> Yeni İstifadəçi Yarat
+                            </a>
+                        </p>
+                        *@
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                @TempData["SuccessMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                @TempData["ErrorMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        }
+
+                        <div class="table-responsive pt-3">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Şəkil</th>
+                                        <th>İstifadəçi Adı</th>
+                                        <th>Tam Ad</th>
+                                        <th>E-poçt</th>
+                                        <th>Təsdiqlənib</th>
+                                        <th>Rollar</th>
+                                        <th>Qeydiyyat Tarixi</th>
+                                        <th style="width:120px;">Əməliyyatlar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>
+                                                @if (!string.IsNullOrEmpty(item.ProfilePicturePath) && item.ProfilePicturePath != "default-avatar.png")
+                                                {
+                                                    <img src="@Url.Content("~/" + item.ProfilePicturePath)" alt="@item.UserName"
+                                                         style="width:40px; height:40px; object-fit:cover; border-radius:50%;"
+                                                         class="img-thumbnail" />
+                                                }
+                                                else
+                                                {
+                                                    <img src="@Url.Content("~/uploads/profile_pictures/default-avatar.png")" alt="Default"
+                                                         style="width:40px; height:40px; object-fit:cover; border-radius:50%;"
+                                                         class="img-thumbnail" />
+                                                }
+                                            </td>
+                                            <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.FullName)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                                            <td>
+                                                @if (item.EmailConfirmed)
+                                                {
+                                                    <span class="badge bg-success">Bəli</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-danger">Xeyr</span>
+                                                }
+                                            </td>
+                                            <td>@string.Join(", ", item.Roles)</td>
+                                            <td>@item.RegistrationDate.ToString("dd MMM yyyy HH:mm")</td>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning" title="Redaktə Et"><i class="mdi mdi-account-edit"></i></a>
+                                                @if (User.FindFirstValue(ClaimTypes.NameIdentifier) != item.Id.ToString()) // Özünü silməsin
+                                                {
+                                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" title="Sil"><i class="mdi mdi-delete"></i></a>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

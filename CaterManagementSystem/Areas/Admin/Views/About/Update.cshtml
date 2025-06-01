@@ -1,0 +1,90 @@
+﻿@model CaterManagementSystem.Models.About
+@{
+    ViewData["Title"] = "Haqqımızda Məlumatını Redaktə Et";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-8 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"] (ID: @Model.Id)</h4>
+                        <form class="forms-sample" method="post" enctype="multipart/form-data" asp-action="Update" asp-route-id="@Model.Id">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" asp-for="Id" />
+                            <input type="hidden" asp-for="ImagePath" /> <!-- Köhnə şəkil yolunu saxlamaq üçün -->
+                            <div asp-validation-summary="All" class="text-danger mb-3"></div> <!-- "All" göstərsin -->
+
+                            <div class="form-group">
+                                <label asp-for="TitleTag"></label>
+                                <input asp-for="TitleTag" class="form-control" />
+                                <span asp-validation-for="TitleTag" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="MainTitle"></label>
+                                <input asp-for="MainTitle" class="form-control" />
+                                <span asp-validation-for="MainTitle" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description"></label>
+                                <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(Model.ImagePath))
+                            {
+                                <div class="form-group">
+                                    <label>Hazırkı Şəkil</label><br />
+                                    <img src="@Url.Content("~/" + Model.ImagePath)" alt="Haqqımızda Şəkli" style="max-width: 200px; height: auto; border:1px solid #ccc; padding:5px;" />
+                                </div>
+                            }
+                             <div class="form-group">
+                                <label asp-for="Photo">Şəkli Dəyiş (Opsional)</label>
+                                <input asp-for="Photo" type="file" class="form-control" accept="image/*" />
+                                <span asp-validation-for="Photo" class="text-danger"></span>
+                            </div>
+                            <hr />
+                            <h5 class="text-muted">Xüsusiyyətlər (Opsional)</h5>
+                             <div class="form-group">
+                                <label asp-for="Feature1Text"></label>
+                                <input asp-for="Feature1Text" class="form-control" />
+                                <span asp-validation-for="Feature1Text" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Feature2Text"></label>
+                                <input asp-for="Feature2Text" class="form-control" />
+                                <span asp-validation-for="Feature2Text" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Feature3Text"></label>
+                                <input asp-for="Feature3Text" class="form-control" />
+                                <span asp-validation-for="Feature3Text" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Feature4Text"></label>
+                                <input asp-for="Feature4Text" class="form-control" />
+                                <span asp-validation-for="Feature4Text" class="text-danger"></span>
+                            </div>
+                             <hr />
+                            <h5 class="text-muted">Düymə (Opsional)</h5>
+                            <div class="form-group">
+                                <label asp-for="ButtonText"></label>
+                                <input asp-for="ButtonText" class="form-control" />
+                                <span asp-validation-for="ButtonText" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ButtonUrl"></label>
+                                <input asp-for="ButtonUrl" type="url" class="form-control" />
+                                <span asp-validation-for="ButtonUrl" class="text-danger"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary me-2">Yenilə</button>
+                            <a asp-action="Index" class="btn btn-light">Ləğv Et</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

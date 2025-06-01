@@ -1,0 +1,23 @@
+﻿@{
+    var serviceTitle = ViewData["ServiceTitle"] as string ?? "Xidmət";
+    ViewData["Title"] = $"{serviceTitle} - Detallar Tezliklə";
+}
+
+<!-- Hero Start -->
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">@serviceTitle</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+            <li class="breadcrumb-item"><a asp-controller="Services" asp-action="Index">Xidmətlər</a></li>
+            <li class="breadcrumb-item text-dark active" aria-current="page">Detallar Tezliklə</li>
+        </ol>
+    </div>
+</div>
+<!-- Hero End -->
+
+<div class="container py-5 text-center">
+    <h2>Detallar Tezliklə Əlavə Olunacaq!</h2>
+    <p class="lead">"@serviceTitle" xidməti üçün ətraflı məlumatlar hazırlanır. Zəhmət olmasa daha sonra yenidən yoxlayın.</p>
+    <a asp-controller="Services" asp-action="Index" class="btn btn-primary rounded-pill mt-3 px-4">Bütün Xidmətlərə Qayıt</a>
+</div>

@@ -1,0 +1,53 @@
+﻿@model CaterManagementSystem.Models.Booking
+@{
+    ViewData["Title"] = "Rezervi Sil (Admin)";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">@ViewData["Title"]</h4>
+                        <hr />
+                        <h5 class="text-danger">Bu rezervi silmək istədiyinizə əminsinizmi?</h5>
+                        <p class="text-muted">Bu əməliyyat geri qaytarıla bilməz.</p>
+                        <div>
+                            <dl class="row mt-3">
+                                <dt class="col-sm-4">Rezerv ID:</dt>
+                                <dd class="col-sm-8">@Model.Id</dd>
+
+                                <dt class="col-sm-4">Rezerv Kodu:</dt>
+                                <dd class="col-sm-8">@(Model.BookingIdentifier ?? "N/A")</dd>
+
+                                <dt class="col-sm-4">İstifadəçi:</dt>
+                                <dd class="col-sm-8">@Model.User?.FullName (@Model.User?.Email)</dd>
+
+                                <dt class="col-sm-4">Xidmət Növü:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.ServiceType)</dd>
+
+                                <dt class="col-sm-4">Rezerv Tarixi:</dt>
+                                <dd class="col-sm-8">@Model.BookingDate.ToString("dd MMM yyyy")</dd>
+
+                              
+                                <dl class="row mt-3">
+                                    @* ... *@
+                                    <dt class="col-sm-4">Status:</dt>
+                                    <dd class="col-sm-8">@Model.Status.GetDisplayName()</dd> 
+                                </dl>
+                            </dl>
+
+                            <form asp-action="Delete" asp-controller="Bookings" asp-area="Admin" method="post">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" asp-for="Id" />
+                                <button type="submit" class="btn btn-danger me-2">Bəli, Sil</button>
+                                <a asp-action="Index" class="btn btn-secondary">Xeyr, İmtina Et</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model CaterManagementSystem.Models.TeamMember
+@{
+    ViewData["Title"] = "Komanda Üzvünü Sil";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">@ViewData["Title"]</h4>
+                        <hr />
+                        <h5 class="text-danger">Bu komanda üzvünü silmək istədiyinizə əminsinizmi?</h5>
+                        <div>
+                            <dl class="row mt-3">
+                                <dt class="col-sm-4">ID:</dt>
+                                <dd class="col-sm-8">@Model.Id</dd>
+
+                                <dt class="col-sm-4">Ad Soyad:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+                                <dt class="col-sm-4">Peşə:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.Profession.Name)</dd>
+
+                                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                                {
+                                    <dt class="col-sm-4">Şəkil:</dt>
+                                    <dd class="col-sm-8">
+                                        <img src="@Url.Content("~/" + Model.ImagePath)" alt="@Model.Name"
+                                             style="max-width:100px; border-radius:50%;" />
+                                    </dd>
+                                }
+                            </dl>
+
+                            <form asp-action="Delete" method="post">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" asp-for="Id" />
+                                <button type="submit" class="btn btn-danger me-2">Bəli, Sil</button>
+                                <a asp-action="Index" class="btn btn-secondary">Xeyr, İmtina Et</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+﻿@model CaterManagementSystem.Models.Service
+@{
+    ViewData["Title"] = "Xidməti Sil";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">@ViewData["Title"]</h4>
+                        <hr />
+                        <h5 class="text-danger">Bu xidməti silmək istədiyinizə əminsinizmi?</h5>
+                        <div>
+                            <dl class="row">
+                                <dt class="col-sm-3">ID:</dt>
+                                <dd class="col-sm-9">@Model.Id</dd>
+
+                                <dt class="col-sm-3">Başlıq:</dt>
+                                <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+                                <dt class="col-sm-3">Qısa Təsvir:</dt>
+                                <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                                {
+                                    <dt class="col-sm-3">Şəkil:</dt>
+                                    <dd class="col-sm-9">
+                                        <img src="@Url.Content("~/" + Model.ImagePath)" alt="@Model.Title" style="max-width:100px;" />
+                                    </dd>
+                                }
+                                @if (Model.ServiceDescription != null)
+                                {
+                                    <dt class="col-sm-3">Detal Başlığı:</dt>
+                                    <dd class="col-sm-9">@Html.DisplayFor(model => model.ServiceDescription.Title)</dd>
+                                    <dt class="col-sm-3">Qonaq Sayı:</dt>
+                                    <dd class="col-sm-9">@Html.DisplayFor(model => model.ServiceDescription.GuestCount)</dd>
+                                }
+                            </dl>
+
+                            <form asp-action="Delete" method="post">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" asp-for="Id" />
+                                <button type="submit" class="btn btn-danger me-2">Bəli, Sil</button>
+                                <a asp-action="Index" class="btn btn-secondary">Xeyr, İmtina Et</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

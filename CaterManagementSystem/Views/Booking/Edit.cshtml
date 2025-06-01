@@ -1,0 +1,153 @@
+﻿@model CaterManagementSystem.ViewModels.BookingViewModel
+@{
+    ViewData["Title"] = "Rezervi Redaktə Et";
+}
+<!-- Hero Start ... -->
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">@ViewData["Title"]</h1>
+        <p>Rezerv ID: @Model.Id</p>
+    </div>
+</div>
+<!-- Hero End -->
+
+<div class="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-1 d-none d-md-block">
+                <img src="~/img/background-site.jpg" class="img-fluid h-100 w-100 rounded-start" style="object-fit: cover; opacity: 0.7;" alt="">
+            </div>
+            <div class="col-md-10 col-12">
+                <div class="border-bottom border-top border-primary bg-light py-5 px-4">
+                    <div class="text-center">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Update Booking</small>
+                        <h1 class="display-5 mb-5">Nəyi Dəyişmək İstəyirsiniz?</h1>
+                    </div>
+                    <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+                        @* DƏYİŞDİRİLMƏYƏCƏK SAHƏLƏRİ HİDDEN İNPUT KİMİ GÖNDƏRMƏK LAZIMDIR Kİ,
+                           CONTROLLER-DƏ MODEL BİNDİNG ZAMANI BU DƏYƏRLƏR İTMƏSİN.
+                           Əks halda, Controller-də bu sahələri bazadan yenidən yükləmək lazım gələcək. *@
+                        <input type="hidden" asp-for="BookingIdentifier" />
+                        <input type="hidden" asp-for="Email" />
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="row g-4 form">
+                            @* ----- Ölkə (Dəyişdirilə bilən) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="Country" class="form-label"></label>
+                                <select asp-for="Country" class="form-select border-primary p-2">
+                                    <option value="">Ölkə Seçin</option>
+                                    <option value="UK">UK</option>
+                                    <option value="France">France</option>
+                                    <option value="Germany">Germany</option>
+                                </select>
+                                <span asp-validation-for="Country" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Şəhər (Dəyişdirilə bilən) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="City" class="form-label"></label>
+                                <select asp-for="City" class="form-select border-primary p-2" aria-label="City selection">
+                                    <option value="">Şəhər Seçin</option>
+                                    <option value="London">London</option>
+                                    @* ... digər şəhərlər ... *@
+                                </select>
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Məkan (Dəyişdirilə bilən) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="Place" class="form-label"></label>
+                                <select asp-for="Place" class="form-select border-primary p-2" aria-label="Place selection">
+                                    <option value="">Məkan Seçin</option>
+                                    <optgroup label="UK Landmarks">
+                                        <option value="BigBen">Big Ben (London)</option>
+                                    </optgroup>
+                                    @* ... digər məkanlar ... *@
+                                </select>
+                                <span asp-validation-for="Place" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Rezerv İdentifikatoru (Dəyişdirilməyəcək - readonly) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="BookingIdentifier" class="form-label"></label>
+                                <input asp-for="BookingIdentifier" class="form-control border-primary p-2" placeholder="Rezerv Kodu" readonly>
+                                @* readonly istifadəçinin dəyişdirməsinə imkan vermir, amma dəyər serverə göndərilir *@
+                                <span asp-validation-for="BookingIdentifier" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Saray Sayı Aralığı (Dəyişdirilə bilən) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="NumberOfPalacesRange" class="form-label"></label>
+                                <select asp-for="NumberOfPalacesRange" class="form-select border-primary p-2" aria-label="Number of Palaces">
+                                    <option value="">Saray Sayı Aralığı Seçin</option>
+                                    <option value="100-0">100-0 (Full Range Experience)</option>
+                                    @* ... digər aralıqlar ... *@
+                                </select>
+                                <span asp-validation-for="NumberOfPalacesRange" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Xidmət Növü (Dəyişdirilə bilən) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="ServiceType" class="form-label"></label>
+                                <select asp-for="ServiceType" class="form-select border-primary p-2" aria-label="Service type selection">
+                                    <option value="">Xidmət Növü Seçin</option>
+                                    <option value="wedding">Wedding Services</option>
+                                    @* ... digər xidmət növləri ... *@
+                                </select>
+                                <span asp-validation-for="ServiceType" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Əlaqə Nömrəsi (Dəyişdirilə bilən) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="ContactNumber" class="form-label"></label>
+                                <input asp-for="ContactNumber" type="tel" class="form-control border-primary p-2" placeholder="Əlaqə Nömrəniz">
+                                <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Tarix (Dəyişdirilə bilən) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="BookingDate" class="form-label"></label>
+                                <input asp-for="BookingDate" type="date" class="form-control border-primary p-2">
+                                <span asp-validation-for="BookingDate" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Əlaqə E-poçtu (Dəyişdirilməyəcək - disabled) ----- *@
+                            <div class="col-lg-4 col-md-6">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input asp-for="Email" type="email" class="form-control border-primary p-2" placeholder="E-poçt Ünvanınız" disabled>
+                                @* disabled istifadəçinin dəyişdirməsinə imkan vermir VƏ dəyər serverə göndərilmir.
+                                   Buna görə yuxarıda hidden input əlavə etdik. *@
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            @* ----- Əlavə Qeydlər (Dəyişdirilə bilən) ----- *@
+                            <div class="col-12">
+                                <label asp-for="Notes" class="form-label"></label>
+                                <textarea asp-for="Notes" class="form-control border-primary p-2" rows="3" placeholder="Əlavə Qeydləriniz (istəyə bağlı)"></textarea>
+                                <span asp-validation-for="Notes" class="text-danger"></span>
+                            </div>
+
+                            <div class="text-center col-12 mt-4">
+                                <button type="submit" class="btn-like-link">Yenilə</button>
+                                <a asp-action="MyBookings" asp-controller="Booking" class="btn btn-outline-secondary ms-2">Ləğv Et</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-1 d-none d-md-block">
+                <img src="~/img/background-site.jpg" class="img-fluid h-100 w-100 rounded-end" style="object-fit: cover; opacity: 0.7;" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

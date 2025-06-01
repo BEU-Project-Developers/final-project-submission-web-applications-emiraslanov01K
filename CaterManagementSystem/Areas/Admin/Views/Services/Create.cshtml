@@ -1,0 +1,82 @@
+﻿@model CaterManagementSystem.Models.Service
+@{
+    // Hələlik Service modelini istifadə edirik, amma ViewModel daha yaxşı olardı
+    ViewData["Title"] = "Yeni Xidmət Yarat";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-8 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"]</h4>
+                        <form asp-action="Create" method="post" enctype="multipart/form-data">
+                            @Html.AntiForgeryToken()
+                            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                            <h5 class="text-primary">Əsas Xidmət Məlumatları</h5>
+                            <hr />
+                            <div class="form-group">
+                                <label asp-for="Title" class="control-label"></label>
+                                <input asp-for="Title" class="form-control" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description" class="control-label"></label>
+                                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="Photo" class="control-label">Xidmət Şəkli</label>
+                                <input name="Photo" type="file" class="form-control" accept="image/*" />
+                                @* <span asp-validation-for="Photo" class="text-danger"></span> Model.Photo olmadığı üçün birbaşa validation olmaz *@
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ButtonText" class="control-label"></label>
+                                <input asp-for="ButtonText" class="form-control" value="Read More" />
+                                <span asp-validation-for="ButtonText" class="text-danger"></span>
+                            </div>
+
+                            <h5 class="text-primary mt-4">Xidmət Detalları (Təsvir)</h5>
+                            <hr />
+                            <div class="form-group">
+                                <label for="sd_Title" class="control-label">Detal Başlığı</label>
+                                <input name="sd_Title" class="form-control" value="@ViewData["sd_Title"]" />
+                                @* <span asp-validation-for="ServiceDescription.Title" class="text-danger"></span> *@
+                            </div>
+                            <div class="form-group">
+                                <label for="sd_GuestCount" class="control-label">Qonaq Sayı</label>
+                                <input name="sd_GuestCount" type="number" class="form-control" value="@ViewData["sd_GuestCount"]" />
+                            </div>
+                            <div class="form-group">
+                                <label for="sd_PerPersonPay" class="control-label">Nəfər Başına Ödəniş (AZN)</label>
+                                <input name="sd_PerPersonPay" type="number" class="form-control" value="@ViewData["sd_PerPersonPay"]" />
+                            </div>
+                            <div class="form-group">
+                                <label for="sd_DateWithMonths" class="control-label">Tarix Aralığı (Məs: 3-6 ay)</label>
+                                <input name="sd_DateWithMonths" class="form-control" value="@ViewData["sd_DateWithMonths"]" />
+                            </div>
+                            @if (ViewData.ModelState.ContainsKey("ServiceDescription"))
+                            {
+                                <div class="text-danger mb-3">@ViewData.ModelState["ServiceDescription"].Errors.First().ErrorMessage</div>
+                            }
+
+
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-primary me-2">Yarat</button>
+                                <a asp-action="Index" class="btn btn-light">Ləğv Et</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

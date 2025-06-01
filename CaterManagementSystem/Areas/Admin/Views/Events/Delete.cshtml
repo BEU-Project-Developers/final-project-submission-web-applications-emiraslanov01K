@@ -1,0 +1,44 @@
+﻿@model CaterManagementSystem.Models.Event
+@{
+    ViewData["Title"] = "Tədbiri Sil";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">@ViewData["Title"]</h4>
+                        <hr />
+                        <h5 class="text-danger">Bu tədbiri silmək istədiyinizə əminsinizmi?</h5>
+                        <div>
+                            <dl class="row mt-3">
+                                <dt class="col-sm-3">ID:</dt>
+                                <dd class="col-sm-9">@Model.Id</dd>
+
+                                <dt class="col-sm-3">Tədbir Başlığı:</dt>
+                                <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+                                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                                {
+                                    <dt class="col-sm-3">Şəkil:</dt>
+                                    <dd class="col-sm-9">
+                                        <img src="@Url.Content("~/" + Model.ImagePath)" alt="@Model.Title" style="max-width:150px;" />
+                                    </dd>
+                                }
+                            </dl>
+
+                            <form asp-action="Delete" method="post">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" asp-for="Id" />
+                                <button type="submit" class="btn btn-danger me-2">Bəli, Sil</button>
+                                <a asp-action="Index" class="btn btn-secondary">Xeyr, İmtina Et</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+﻿@model CaterManagementSystem.Models.About
+@{
+    ViewData["Title"] = "Haqqımızda Məlumatını Sil";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">@ViewData["Title"]</h4>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-4">ID:</dt>
+                            <dd class="col-sm-8">@Model.Id</dd>
+
+                            <dt class="col-sm-4">Etiket:</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.TitleTag)</dd>
+
+                            <dt class="col-sm-4">Əsas Başlıq:</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.MainTitle)</dd>
+
+                            @if (!string.IsNullOrEmpty(Model.ImagePath))
+                            {
+                                <dt class="col-sm-4">Şəkil:</dt>
+                                <dd class="col-sm-8">
+                                    @* Şəkil yolu wwwroot/All-Images qovluğuna görə düzgündür *@
+                                    <img src="@Url.Content("~/" + Model.ImagePath)" alt="Şəkil" style="max-width: 150px; border: 1px solid #ddd; padding: 3px;" />
+                                </dd>
+                            }
+                        </dl>
+
+                        <p class="text-danger mt-3">
+                            <strong>'@Model.MainTitle'</strong> başlıqlı məlumatı silmək istədiyinizə əminsinizmi? Bu əməliyyat geri qaytarıla bilməz.
+                        </p>
+
+                        @* DƏYİŞİKLİK BURADADIR: asp-action="Delete" *@
+                        <form asp-action="Delete" asp-controller="About" asp-area="Admin" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" asp-for="Id" /> @* Bu, Controller-dəki DeleteConfirmed(int id) parametrini dolduracaq *@
+
+                            <button type="submit" class="btn btn-danger me-2">Bəli, Sil</button>
+                            <a asp-action="Index" class="btn btn-secondary">Xeyr, İmtina Et</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

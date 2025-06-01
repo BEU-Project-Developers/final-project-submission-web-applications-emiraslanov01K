@@ -1,4 +1,12 @@
-﻿<!-- Modal Search Start -->
+﻿@model IEnumerable<CaterManagementSystem.Models.TeamMember>
+@{
+    ViewData["Title"] = "Komandamız";
+    // For data-wow-delay sequencing
+    var delayCounter = 0;
+    var delayIncrement = 0.2; // Slightly larger increment for fewer items per row typically
+}
+
+<!-- Modal Search Start -->
 <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content rounded-0">
@@ -19,10 +27,10 @@
 <!-- Hero Start -->
 <div class="container-fluid bg-light py-6 my-6 mt-0">
     <div class="container text-center animated bounceInDown">
-        <h1 class="display-1 mb-4">Our Team</h1>
+        <h1 class="display-1 mb-4">Komandamız</h1>
         <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
-
-            <li class="breadcrumb-item text-dark" aria-current="page">Our MasterChefs</li>
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+            <li class="breadcrumb-item text-dark active" aria-current="page">Usta Aşpazlarımız</li>
         </ol>
     </div>
 </div>
@@ -31,51 +39,56 @@
 <div class="container-fluid team py-6">
     <div class="container">
         <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
-            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Team</small>
-            <h1 class="display-5 mb-5">We have experienced chef Team</h1>
+            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Komandamız</small>
+            <h1 class="display-5 mb-5">Təcrübəli aşpaz komandamız var</h1>
         </div>
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.1s">
-                <div class="team-item rounded">
-                    <img class="img-fluid rounded-top " src="img/team-1.jpg" alt="">
-                    <div class="team-content text-center py-3 bg-dark rounded-bottom">
-                        <h4 class="text-primary">Henry</h4>
-                        <p class="text-white mb-0">Decoration Chef</p>
+        @if (Model != null && Model.Any())
+        {
+            <div class="row g-4">
+                @foreach (var member in Model)
+                {
+                    // Reset delay counter if it gets too high for variety, e.g., after 4 items (0.1s to 0.7s for col-lg-3)
+                    if (delayCounter >= 4)
+                    { // Assuming 4 items per row, adjust if different
+                        delayCounter = 0;
+                    }
+                    var currentDelay = (delayCounter * delayIncrement) + delayIncrement; // Starts from 0.1s (or first increment)
+
+                    <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="@(currentDelay.ToString("0.0", System.Globalization.CultureInfo.InvariantCulture))s">
+                        <div class="team-item rounded">
+                            @if (!string.IsNullOrEmpty(member.ImagePath))
+                            {
+                                <img class="img-fluid rounded-top" src="~/@member.ImagePath" alt="@member.Name" style="width:100%; height: 300px; object-fit: cover;"> @* Added style for consistent height *@
+                            }
+                            else
+                            {
+                                <img class="img-fluid rounded-top" src="~/img/team/default-member.png" alt="Default Team Member" style="width:100%; height: 300px; object-fit: cover;"> @* Ehtiyat şəkil *@
+                            }
+                            <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                                <h4 class="text-primary">@member.Name</h4>
+                                <p class="text-white mb-0">@(member.Profession?.Name ?? "Vəzifə təyin edilməyib")</p>
+                            </div>
+                            @*
+                            Sosial media linkləri üçün yer (əgər modeldə varsa):
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            *@
+                        </div>
                     </div>
-                   
-                </div>
+                    delayCounter++;
+                }
             </div>
-            <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.3s">
-                <div class="team-item rounded">
-                    <img class="img-fluid rounded-top " src="img/team-2.jpg" alt="">
-                    <div class="team-content text-center py-3 bg-dark rounded-bottom">
-                        <h4 class="text-primary">Jemes Born</h4>
-                        <p class="text-white mb-0">Executive Chef</p>
-                    </div>
-                  
-                </div>
+        }
+        else
+        {
+            <div class="text-center">
+                <p>Hazırda heç bir komanda üzvü mövcud deyil.</p>
             </div>
-            <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.5s">
-                <div class="team-item rounded">
-                    <img class="img-fluid rounded-top " src="img/team-3.jpg" alt="">
-                    <div class="team-content text-center py-3 bg-dark rounded-bottom">
-                        <h4 class="text-primary">Martin Hill</h4>
-                        <p class="text-white mb-0">Kitchen Porter</p>
-                    </div>
-                   
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.7s">
-                <div class="team-item rounded">
-                    <img class="img-fluid rounded-top " src="img/team-4.jpg" alt="">
-                    <div class="team-content text-center py-3 bg-dark rounded-bottom">
-                        <h4 class="text-primary">Adam Smith</h4>
-                        <p class="text-white mb-0">Head Chef</p>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
+        }
     </div>
 </div>
 <!-- Team End -->

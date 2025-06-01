@@ -1,53 +1,53 @@
-using CaterManagementSystem.Models;
+using CaterManagementSystem.Data;
 using CaterManagementSystem.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 
-// DbContext konfiqurasiyas?
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // "DefaultConnection" ad?n? appsettings.json-dak? il? uy?unla?d?r?n
+builder.Services.AddControllersWithViews();        // mvc strukturunu avtikl??dirm?y ???nd?r 
 
-// Email servisi üçün konfiqurasiya
-builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+
+builder.Services.AddDbContext<AppDbContext>(options =>  // db il? ?laq? ???n efc konfiqurasiays?d?r 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings")); // mail il? olan ?m?liyyatlar ???n ayarlar 
 builder.Services.AddScoped<IPasswordService, PasswordService>();
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 
-// Cookie ?sasl? autentifikasiya konfiqurasiyas?
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)  // asa??dak? ?m?liyyatlar ???n yollar? t?min edir
     .AddCookie(options =>
     {
-        options.LoginPath = "/Account/Login"; // Login s?hif?sinin ünvan?
-        options.LogoutPath = "/Account/Logout"; // Logout ünvan?
-        options.AccessDeniedPath = "/Account/AccessDenied"; // ?caz? olmad?qda yönl?ndiril?c?k s?hif?
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(60); // Cookie-nin etibarl?l?q müdd?ti
-        options.SlidingExpiration = true; // H?r sor?uda etibarl?l?q müdd?tini yenil?
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout"; 
+        options.AccessDeniedPath = "/Account/AccessDenied"; 
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(60); 
+        options.SlidingExpiration = true; 
     });
 
-// Avtorizasiya siyas?tl?ri (laz?m olarsa)
-builder.Services.AddAuthorization(options =>
+
+builder.Services.AddAuthorization(options =>  // admin v? user ???n giri? qaydalar?n? t?nin edir
 {
     options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
     options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
-    // Dig?r siyas?tl?ri burada t?yin ed? bil?rsiniz
+    
 });
 
 
 var app = builder.Build();
 
-// Veril?nl?r bazas? miqrasiyalar?n? t?tbiq etm?k v? ilkin rollar? ?lav? etm?k üçün (istehsalat üçün daha yax?? bir yol dü?ünün)
-using (var scope = app.Services.CreateScope())
+
+using (var scope = app.Services.CreateScope())   // avtomatik db nin migrationlar?n? t?min edir
 {
-    var services = scope.ServiceProvider;
+    var services = scope.ServiceProvider; // migration zaman? bir s?hv olarasa ( y?kl?m? v? ya yeni m?lumatlar?n update olmas? kimi bu zaman error verir 
     try
     {
         var context = services.GetRequiredService<AppDbContext>();
-        context.Database.Migrate(); // Miqrasiyalar? t?tbiq edir
-        // ?lkin rollar?n AppDbContext-d? HasData il? ?lav? olundu?undan ?min olun
+        context.Database.Migrate(); 
+  
     }
     catch (Exception ex)
     {
@@ -57,8 +57,8 @@ using (var scope = app.Services.CreateScope())
 }
 
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+
+if (!app.Environment.IsDevelopment())  // i?l?m? ax?n?n? nizamlay?r 
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
@@ -69,10 +69,17 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); // Vacibdir! Autentifikasiyan? aktivl??dirir
-app.UseAuthorization();  // Vacibdir! Avtorizasiyan? aktivl??dirir
+app.UseAuthentication(); 
+app.UseAuthorization(); 
 
-app.MapControllerRoute(
+
+
+ app.MapControllerRoute(  // admin page ???n routing qaydas? 
+      name: "areas",
+      pattern: "{area:exists}/{controller=Account}/{action=Login}/{id?}"
+    );
+
+app.MapControllerRoute(   // main page ???n routing qaydas? 
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 

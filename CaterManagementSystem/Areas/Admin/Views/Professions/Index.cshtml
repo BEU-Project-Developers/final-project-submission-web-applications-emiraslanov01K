@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CaterManagementSystem.Models.Profession>
+@{
+    ViewData["Title"] = "Peşələr";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-8 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"]</h4>
+                        <p>
+                            <a asp-action="Create" class="btn btn-success">
+                                <i class="mdi mdi-plus-circle-outline"></i> Yeni Peşə Yarat
+                            </a>
+                        </p>
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+                        }
+
+                        <div class="table-responsive pt-3">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Peşə Adı</th>
+                                        <th>Komanda Üzvlərinin Sayı</th>
+                                        <th style="width:150px;">Əməliyyatlar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                            <td>@(item.TeamMembers?.Count ?? 0)</td>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning" title="Redaktə Et"><i class="mdi mdi-pencil"></i></a>
+                                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" title="Sil"><i class="mdi mdi-delete"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

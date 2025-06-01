@@ -1,0 +1,137 @@
+﻿@model CaterManagementSystem.ViewModels.EditProfileViewModel
+@{
+    ViewData["Title"] = "Profili Redaktə Et";
+}
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">@ViewData["Title"]</h2>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success" role="alert">
+                            @TempData["SuccessMessage"]
+                        </div>
+                    }
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @TempData["ErrorMessage"]
+                        </div>
+                    }
+
+                    <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <input type="hidden" asp-for="UserId" />
+                        <input type="hidden" asp-for="CurrentImagePath" /> <!-- Mövcud şəkli postback-də saxlamaq üçün -->
+
+                        <h5 class="mt-3 mb-3">Əsas Məlumatlar</h5>
+                        <hr />
+
+                        <div class="mb-3">
+                            <label asp-for="UserName" class="form-label"></label>
+                            <input asp-for="UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FullName" class="form-label"></label>
+                            <input asp-for="FullName" class="form-control" />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                            <small class="form-text text-muted">E-poçtunuzu dəyişdirsəniz, yenidən təsdiqləmə tələb oluna bilər.</small>
+                        </div>
+
+                        <h5 class="mt-4 mb-3">Profil Şəkli</h5>
+                        <hr />
+
+                        @if (!string.IsNullOrEmpty(Model.CurrentImagePath) && Model.CurrentImagePath != "default-avatar.png")
+                        {
+                            <div class="mb-3">
+                                <label class="form-label">Hazırkı Şəkil:</label><br />
+                                <img src="@Url.Content("~/" + Model.CurrentImagePath)" alt="Profil Şəkli"
+                                     style="width: 150px; height: 150px; object-fit: cover;" class="img-thumbnail mb-2" />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="mb-3">
+                                <label class="form-label">Hazırkı Şəkil:</label><br />
+                                <img src="@Url.Content("~/uploads/profile_pictures/default-avatar.png")" alt="Standart Profil Şəkli"
+                                     style="width: 150px; height: 150px; object-fit: cover;" class="img-thumbnail mb-2" />
+                            </div>
+                        }
+
+                        <div class="mb-3">
+                            <label asp-for="Photo" class="form-label">Yeni Şəkil Yüklə (Opsional)</label>
+                            <input asp-for="Photo" type="file" class="form-control" accept="image/jpeg, image/png, image/gif" />
+                            <span asp-validation-for="Photo" class="text-danger"></span>
+                            <small class="form-text text-muted">Yalnız .jpg, .png, .gif formatları. Maksimum ölçü: 2MB (server tərəfində yoxlanılmalıdır).</small>
+                        </div>
+
+
+                        <h5 class="mt-4 mb-3">Şifrə Dəyişikliyi (Opsional)</h5>
+                        <hr />
+                        <p class="text-muted small">Şifrənizi dəyişdirmək istəmirsinizsə, bu sahələri boş buraxın.</p>
+
+                        <div class="mb-3">
+                            <label asp-for="CurrentPassword" class="form-label"></label>
+                            <input asp-for="CurrentPassword" type="password" class="form-control" autocomplete="current-password" />
+                            <span asp-validation-for="CurrentPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NewPassword" class="form-label"></label>
+                            <input asp-for="NewPassword" type="password" class="form-control" autocomplete="new-password" />
+                            <span asp-validation-for="NewPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ConfirmNewPassword" class="form-label"></label>
+                            <input asp-for="ConfirmNewPassword" type="password" class="form-control" autocomplete="new-password" />
+                            <span asp-validation-for="ConfirmNewPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">Dəyişiklikləri Yadda Saxla</button>
+                            <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Ləğv Et</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Fayl seçildikdə adını göstərmək üçün kiçik bir skript (Bootstrap 5 üçün)
+        // Bu, IFormFile inputunun görünüşünü yaxşılaşdıra bilər.
+        // Amma sadə input type="file" da işləyir.
+        document.addEventListener('DOMContentLoaded', function () {
+            var fileInput = document.querySelector('input[type="file"][name="Photo"]');
+            if (fileInput) {
+                fileInput.addEventListener('change', function (e) {
+                    var fileName = e.target.files[0] ? e.target.files[0].name : 'Fayl seçilməyib';
+                    var nextSibling = e.target.nextElementSibling;
+                    // Əgər input üçün xüsusi label istifadə edirsinizsə, onu hədəfləyin
+                    // Bu nümunədə sadəcə konsola yazırıq.
+                    // console.log("Seçilən fayl: ", fileName);
+                });
+            }
+        });
+    </script>
+}

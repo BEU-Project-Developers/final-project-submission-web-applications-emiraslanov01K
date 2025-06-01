@@ -38,31 +38,47 @@
                             @TempData["SuccessMessage"]
                         </div>
                     }
+                    @* Xəta mesajları üçün də bir yer əlavə etmək faydalı ola bilər *@
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger text-center">
+                            @TempData["ErrorMessage"]
+                        </div>
+                    }
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3 text-center"></div>
+
 
                     <div class="row g-4 form">
                         <div class="col-md-6 mx-auto">
                             <form asp-action="Login" asp-controller="Account" method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
                                 @Html.AntiForgeryToken()
-                                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                                @* <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>  ModelOnly yuxarıda mərkəzləşdirildi *@
 
                                 <div class="mb-3">
+                                    <label asp-for="EmailOrUserName" class="form-label visually-hidden">İstifadəçi adı və ya E-poçt</label> <!-- Label əlavə edildi, amma gizlədildi -->
                                     <input asp-for="EmailOrUserName" class="form-control border-primary p-2" placeholder="Username or Email">
-                                    <span asp-validation-for="EmailOrUserName" class="text-danger"></span>
+                                    <span asp-validation-for="EmailOrUserName" class="text-danger d-block text-center"></span> <!-- d-block text-center əlavə edildi -->
                                 </div>
                                 <div class="mb-3">
+                                    <label asp-for="Password" class="form-label visually-hidden">Şifrə</label> <!-- Label əlavə edildi, amma gizlədildi -->
                                     <input asp-for="Password" class="form-control border-primary p-2" placeholder="Password">
-                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                    <span asp-validation-for="Password" class="text-danger d-block text-center"></span> <!-- d-block text-center əlavə edildi -->
                                 </div>
-                                <div class="mb-3 form-check">
-                                    <input asp-for="RememberMe" class="form-check-input">
-                                    <label class="form-check-label" asp-for="RememberMe"></label>
+                                <div class="mb-3 form-check d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <input asp-for="RememberMe" class="form-check-input" id="rememberMeCheck">
+                                        <label class="form-check-label" asp-for="RememberMe" for="rememberMeCheck"></label>
+                                    </div>
+                                    <div>
+                                        @* FORGOT PASSWORD LİNKİ AKTİVLƏŞDİRİLDİ *@
+                                        <a asp-controller="Account" asp-action="ForgotPassword" class="text-primary small">Forgot your password?</a>
+                                    </div>
                                 </div>
-                                <div class="text-center">
+                                <div class="text-center mt-4">
                                     <button type="submit" class="btn-like-link">Login</button>
                                 </div>
                                 <div class="text-center mt-3">
                                     <p>Don't have an account? <a asp-controller="Account" asp-action="Register" class="text-primary">Sign Up</a></p>
-                                    @* <p><a asp-action="ForgotPassword" class="text-primary">Forgot your password?</a></p> *@
                                 </div>
                             </form>
                         </div>
@@ -80,6 +96,17 @@
 <style>
     .btn-like-link {
         /* ... (sizin CSS kodunuz) ... */
+        /* Əgər bu bir düymədirsə və class-ı varsa, onu saxlayın */
+        /* Məsələn, Bootstrap düyməsi kimi görünməsi üçün: */
+        /* padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            color: #fff;
+            background-color: #0d6efd;
+            border: 1px solid #0d6efd;
+            cursor: pointer;
+            display: inline-block; */
     }
 </style>
 

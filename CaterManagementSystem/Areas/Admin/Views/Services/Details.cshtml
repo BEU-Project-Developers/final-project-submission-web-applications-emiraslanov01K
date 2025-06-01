@@ -1,0 +1,68 @@
+﻿@model CaterManagementSystem.Models.Service
+@{
+    ViewData["Title"] = "Xidmət Detalları";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-8 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"]: @Model.Title</h4>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-3">ID</dt>
+                            <dd class="col-sm-9">@Model.Id</dd>
+
+                            <dt class="col-sm-3">Başlıq</dt>
+                            <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+                            <dt class="col-sm-3">Qısa Təsvir</dt>
+                            <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                            <dt class="col-sm-3">Düymə Mətni</dt>
+                            <dd class="col-sm-9">@Html.DisplayFor(model => model.ButtonText)</dd>
+
+                            @if (!string.IsNullOrEmpty(Model.ImagePath))
+                            {
+                                <dt class="col-sm-3">Şəkil</dt>
+                                <dd class="col-sm-9">
+                                    <img src="@Url.Content("~/" + Model.ImagePath)" alt="@Model.Title" style="max-width:200px;" class="img-thumbnail" />
+                                </dd>
+                            }
+                        </dl>
+
+                        @if (Model.ServiceDescription != null)
+                        {
+                            <h5 class="mt-4 text-primary">Xidmət Detalları</h5>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-3">Detal Başlığı</dt>
+                                <dd class="col-sm-9">@Html.DisplayFor(model => model.ServiceDescription.Title)</dd>
+
+                                <dt class="col-sm-3">Qonaq Sayı</dt>
+                                <dd class="col-sm-9">@Html.DisplayFor(model => model.ServiceDescription.GuestCount)</dd>
+
+                                <dt class="col-sm-3">Nəfər Başına Ödəniş</dt>
+                                <dd class="col-sm-9">@Model.ServiceDescription.PerPersonPay AZN</dd>
+
+                                <dt class="col-sm-3">Tarix Aralığı</dt>
+                                <dd class="col-sm-9">@Html.DisplayFor(model => model.ServiceDescription.DateWithMonths)</dd>
+                            </dl>
+                        }
+                        else
+                        {
+                            <div class="alert alert-warning mt-3">Bu xidmət üçün əlavə detal tapılmadı.</div>
+                        }
+
+                        <div class="mt-4">
+                            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Redaktə Et</a> |
+                            <a asp-action="Index" class="btn btn-outline-secondary">Siyahıya Qayıt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

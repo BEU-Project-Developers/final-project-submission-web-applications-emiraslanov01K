@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace CaterManagementSystem.Services // Namespace-i layihənizə uyğunlaşdırın
+namespace CaterManagementSystem.Services 
 {
     public class PasswordService : IPasswordService
     {
@@ -21,9 +21,9 @@ namespace CaterManagementSystem.Services // Namespace-i layihənizə uyğunlaşd
         {
             if (string.IsNullOrWhiteSpace(password))
                 throw new ArgumentException("Password cannot be empty or whitespace.", nameof(password));
-            if (storedHash.Length != 64) // HMACSHA512 hash uzunluğu 64 byte-dır
+            if (storedHash.Length != 64) 
                 throw new ArgumentException("Invalid length of password hash (64 bytes expected).", nameof(storedHash));
-            if (storedSalt.Length != 128) // HMACSHA512 key uzunluğu 128 byte-dır
+            if (storedSalt.Length != 128) 
                 throw new ArgumentException("Invalid length of password salt (128 bytes expected).", nameof(storedSalt));
 
             using (var hmac = new HMACSHA512(storedSalt))

@@ -1,4 +1,4 @@
-﻿// Controllers/AccountController.cs
+﻿// CaterManagementSystem.Controllers/AccountController.cs
 using CaterManagementSystem.Models;
 using CaterManagementSystem.ViewModels;
 using Microsoft.AspNetCore.Authentication;
@@ -6,45 +6,47 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
-using CaterManagementSystem.Services; // IEmailSender və IPasswordService üçün
-using System.Text.Encodings.Web; // HtmlEncoder üçün
-using Microsoft.AspNetCore.Authorization; // [Authorize] üçün
-using Microsoft.AspNetCore.Hosting; // IWebHostEnvironment üçün (EditProfile-da şəkil yükləmə)
+using CaterManagementSystem.Services;
+using System.Text.Encodings.Web;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using System.IO;
-using SchoolSystem.Models; // Path, FileStream üçün
+using CaterManagementSystem.Data;
+using System;
 
 namespace CaterManagementSystem.Controllers
 {
+    [AllowAnonymous] // Bütün action-lar default olaraq anonim olmasını təmin etmək 
     public class AccountController : Controller
     {
         private readonly AppDbContext _context;
         private readonly IEmailSender _emailSender;
         private readonly IPasswordService _passwordService;
         private readonly ILogger<AccountController> _logger;
-        private readonly IWebHostEnvironment _webHostEnvironment; // Profil şəkli üçün
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
         public AccountController(AppDbContext context,
                                  IEmailSender emailSender,
                                  IPasswordService passwordService,
                                  ILogger<AccountController> logger,
-                                 IWebHostEnvironment webHostEnvironment) // Əlavə edildi
+                                 IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
             _emailSender = emailSender;
             _passwordService = passwordService;
             _logger = logger;
-            _webHostEnvironment = webHostEnvironment; // Təyin edildi
+            _webHostEnvironment = webHostEnvironment;
         }
 
-        // === QEYDİYYAT VƏ E-POÇT TƏSDİQLƏMƏ ===
-
+        //  register və email təstiqləmə
         [HttpGet]
         public IActionResult Register() => View();
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(RegisterViewModel model) // RegisterViewModel-də FullName sahəsi olmalıdır
+        public async Task<IActionResult> Register(RegisterViewModel model, string? returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
             if (ModelState.IsValid)
             {
                 if (await _context.Users.AnyAsync(u => u.UserName == model.UserName))
@@ -55,7 +57,6 @@ namespace CaterManagementSystem.Controllers
                 {
                     ModelState.AddModelError(nameof(model.Email), "Bu e-poçt ünvanı artıq qeydiyyatdan keçib.");
                 }
-
                 if (!ModelState.IsValid) return View(model);
 
                 _passwordService.CreatePasswordHash(model.Password, out byte[] passwordHash, out byte[] passwordSalt);
@@ -64,17 +65,15 @@ namespace CaterManagementSystem.Controllers
                 {
                     UserName = model.UserName,
                     Email = model.Email,
-                    FullName = model.FullName, // RegisterViewModel-dən gəlməlidir
+                    FullName = model.FullName,
                     PasswordHash = passwordHash,
                     PasswordSalt = passwordSalt,
                     EmailConfirmed = false,
                     RegistrationDate = DateTime.UtcNow,
                     ConfirmationToken = Guid.NewGuid().ToString("N"),
-                    ConfirmationTokenExpiryDate = DateTime.UtcNow.AddDays(1),
-                    ImagePath = "default-avatar.png" // Varsayılan şəkil
+                    ConfirmationTokenExpiryDate = DateTime.UtcNow.AddDays(1)
                 };
 
-                // Varsayılan "User" rolunu təyin et
                 var defaultRole = await _context.Role.FirstOrDefaultAsync(r => r.Name == "User");
                 if (defaultRole == null)
                 {
@@ -82,68 +81,84 @@ namespace CaterManagementSystem.Controllers
                     ModelState.AddModelError(string.Empty, "Qeydiyyat zamanı sistem xətası. Administrator ilə əlaqə saxlayın.");
                     return View(model);
                 }
-                user.UserRoles.Add(new UserRole { Role = defaultRole }); // User-ə birbaşa əlavə etdik
+                user.UserRoles.Add(new UserRole { Role = defaultRole });
 
-                // İlkin UserDetails yarat
                 var userDetails = new UserDetails
                 {
-                    User = user, // User obyektini birbaşa təyin et
-                    // Username və Fullname UserDetails-dən çıxarılıbsa, bu sətirlər lazım deyil
-                    // Username = user.UserName,
-                    // Fullname = user.FullName,
-                    ImagePath = user.ImagePath // User-dəki default şəkil ilə başla
+                    User = user,
+                    ImagePath = "default-avatar.png"
                 };
-                // user.UserDetails = userDetails; // Bu şəkildə də əlaqə qurula bilər və ya birbaşa context-ə əlavə edilə bilər
-                // EF Core əlaqələri avtomatik idarə edəcək əgər UserDetails.User təyin olunubsa.
 
-                _context.Users.Add(user);
-                _context.UserDetails.Add(userDetails); // UserDetails-i də context-ə əlavə et
-
-                try
+                using (var transaction = await _context.Database.BeginTransactionAsync())
                 {
-                    await _context.SaveChangesAsync();
+                    try
+                    {
+                        _context.Users.Add(user);
+                        _context.UserDetails.Add(userDetails);
+                        await _context.SaveChangesAsync();
 
-                    var callbackUrl = Url.Action(nameof(ConfirmEmail), "Account",
-                                       new { userId = user.Id, token = user.ConfirmationToken },
-                                       protocol: Request.Scheme);
+                        var callbackUrl = Url.Action(nameof(ConfirmEmail), "Account",
+                                           new { userId = user.Id, token = user.ConfirmationToken },
+                                           protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(model.Email, "Hesabınızı Təsdiqləyin",
-                        $"Zəhmət olmasa hesabınızı <a href='{HtmlEncoder.Default.Encode(callbackUrl!)}'>buraya</a> klikləyərək təsdiqləyin.");
-
-                    _logger.LogInformation("Confirmation email sent to {Email}", model.Email);
-                    return RedirectToAction(nameof(RegisterConfirmation));
-                }
-                catch (DbUpdateException dbEx)
-                {
-                    _logger.LogError(dbEx, "Database error during registration for {Email}", model.Email);
-                    ModelState.AddModelError(string.Empty, "Qeydiyyat zamanı verilənlər bazası xətası. Məlumatların unikallığını yoxlayın.");
-                }
-                catch (Exception ex)
-                {
-                    _logger.LogError(ex, "Error during registration for {Email}", model.Email);
-                    ModelState.AddModelError(string.Empty, "Qeydiyyat zamanı xəta baş verdi. Zəhmət olmasa yenidən cəhd edin.");
-                    // Əgər istifadəçi qismən yaradılıbsa, onu geri almaq (rollback) mürəkkəb ola bilər.
-                    // Ən yaxşısı, transaction istifadə etməkdir, amma sadəlik üçün hələlik belə saxlayırıq.
+                        if (!string.IsNullOrEmpty(callbackUrl))
+                        {
+                            await _emailSender.SendEmailAsync(model.Email, "Hesabınızı Təsdiqləyin",
+                                $"Zəhmət olmasa hesabınızı <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>buraya</a> klikləyərək təsdiqləyin.");
+                            _logger.LogInformation("Confirmation email sent to {Email}", model.Email);
+                        }
+                        else
+                        {
+                            _logger.LogWarning("Could not generate callback URL for email confirmation for user {Email}.", model.Email);
+                        }
+                        await transaction.CommitAsync();
+                        return RedirectToAction(nameof(RegisterConfirmation), new { email = model.Email });
+                    }
+                    catch (DbUpdateException dbEx)
+                    {
+                        await transaction.RollbackAsync();
+                        _logger.LogError(dbEx, "Database error during registration for {Email}. InnerException: {InnerEx}", model.Email, dbEx.InnerException?.Message);
+                        ModelState.AddModelError(string.Empty, "Qeydiyyat zamanı verilənlər bazası xətası. Məlumatların unikallığını yoxlayın.");
+                    }
+                    catch (Exception ex)
+                    {
+                        await transaction.RollbackAsync();
+                        _logger.LogError(ex, "General error during registration for {Email}. Details: {ExceptionDetails}", model.Email, ex.ToString());
+                        ModelState.AddModelError(string.Empty, "Qeydiyyat zamanı xəta baş verdi. Zəhmət olmasa yenidən cəhd edin.");
+                    }
                 }
             }
             return View(model);
         }
 
         [HttpGet]
-        public IActionResult RegisterConfirmation() => View();
+        public IActionResult RegisterConfirmation(string? email)
+        {
+            ViewBag.Email = email;
+            ViewBag.Message = string.IsNullOrEmpty(email)
+                ? "Qeydiyyatınız demək olar ki, tamamlandı. E-poçt ünvanınıza təsdiqləmə linki göndərməyə çalışdıq."
+                : $"Hesabınızı aktivləşdirmək üçün {email} ünvanına təsdiqləmə linki göndərdik. Zəhmət olmasa e-poçt qutunuzu (spam/junk qovluğunu da) yoxlayın.";
+            return View();
+        }
 
         [HttpGet]
         public async Task<IActionResult> ConfirmEmail(int? userId, string? token)
         {
-            if (userId == null || token == null) return RedirectToAction("Index", "Home");
-
+            if (userId == null || string.IsNullOrEmpty(token))
+            {
+                TempData["ErrorMessage"] = "Yanlış təsdiqləmə linki.";
+                return RedirectToAction("Index", "Home");
+            }
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId && u.ConfirmationToken == token);
-
-            if (user != null && user.ConfirmationTokenExpiryDate >= DateTime.UtcNow)
+            if (user != null)
             {
                 if (user.EmailConfirmed)
                 {
                     ViewBag.Message = "E-poçt ünvanınız artıq təsdiqlənib.";
+                }
+                else if (user.ConfirmationTokenExpiryDate.HasValue && user.ConfirmationTokenExpiryDate.Value < DateTime.UtcNow)
+                {
+                    ViewBag.Message = "Təsdiqləmə linkinin vaxtı bitib.";
                 }
                 else
                 {
@@ -154,18 +169,14 @@ namespace CaterManagementSystem.Controllers
                     ViewBag.Message = "E-poçt ünvanınız uğurla təsdiqləndi! İndi daxil ola bilərsiniz.";
                 }
             }
-            else if (user != null && user.ConfirmationTokenExpiryDate < DateTime.UtcNow)
-            {
-                ViewBag.Message = "Təsdiqləmə linkinin vaxtı bitib.";
-            }
             else
             {
-                ViewBag.Message = "Yanlış təsdiqləmə linki.";
+                ViewBag.Message = "Yanlış və ya etibarsız təsdiqləmə linki.";
             }
             return View();
         }
 
-        // === DAXİL OLMA ===
+        //  login hissəsi
         [HttpGet]
         public IActionResult Login(string? returnUrl = null)
         {
@@ -181,21 +192,19 @@ namespace CaterManagementSystem.Controllers
             if (ModelState.IsValid)
             {
                 var user = await _context.Users
-                                         .Include(u => u.UserRoles!) // UserRoles null ola bilməz deyə ! işarəsi (əgər əmin deyilsinizsə, yoxlayın)
+                                         .Include(u => u.UserRoles!)
                                              .ThenInclude(ur => ur.Role)
-                                         .Include(u => u.UserDetails) // UserDetails-i də yüklə
-                                         .FirstOrDefaultAsync(u => u.Email == model.EmailOrUserName || u.UserName == model.EmailOrUserName);
+                                         .Include(u => u.UserDetails)
+                                         .FirstOrDefaultAsync(u => u.UserName == model.EmailOrUserName || u.Email == model.EmailOrUserName);
 
                 if (user != null && _passwordService.VerifyPasswordHash(model.Password, user.PasswordHash, user.PasswordSalt))
                 {
                     if (!user.EmailConfirmed)
                     {
-                        ModelState.AddModelError(string.Empty, "Zəhmət olmasa e-poçt ünvanınızı təsdiqləyin.");
+                        ModelState.AddModelError(string.Empty, "Daxil olmaq üçün e-poçt ünvanınızı təsdiqləməlisiniz.");
                         return View(model);
                     }
-
-                    await SignInUserAsync(user, model.RememberMe); // SignInUser metodunu çağır
-
+                    await SignInUserAsync(user, model.RememberMe);
                     if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
                         return Redirect(returnUrl);
                     return RedirectToAction("Index", "Home");
@@ -212,30 +221,26 @@ namespace CaterManagementSystem.Controllers
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.GivenName, user.FullName ?? string.Empty) // FullName null ola bilər deyə ??
+                new Claim(ClaimTypes.GivenName, user.FullName ?? string.Empty)
             };
-
-            // Profil şəklini UserDetails-dən (əgər varsa) və ya User-dən al
-            string profilePicturePath = user.UserDetails?.ImagePath ?? user.ImagePath ?? "default-avatar.png";
+            string profilePicturePath = user.UserDetails?.ImagePath ?? "default-avatar.png";
             claims.Add(new Claim("ProfilePicture", profilePicturePath));
-
-
-            foreach (var userRole in user.UserRoles)
+            if (user.UserRoles != null)
             {
-                if (userRole.Role != null) // Role null ola bilər deyə yoxlama
+                foreach (var userRole in user.UserRoles)
                 {
-                    claims.Add(new Claim(ClaimTypes.Role, userRole.Role.Name));
+                    if (userRole.Role != null)
+                    {
+                        claims.Add(new Claim(ClaimTypes.Role, userRole.Role.Name));
+                    }
                 }
             }
-
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var authProperties = new AuthenticationProperties { IsPersistent = isPersistent };
-
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
         }
 
-
-        // === ŞİFRƏNİ UNUTDUM / ŞİFRƏ SIFIRLAMA ===
+        // forget password və create new passord hissələri
         [HttpGet]
         public IActionResult ForgotPassword() => View();
 
@@ -248,51 +253,107 @@ namespace CaterManagementSystem.Controllers
                 var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
                 if (user != null && user.EmailConfirmed)
                 {
-                    user.PasswordResetToken = Guid.NewGuid().ToString("N");
-                    user.PasswordResetTokenExpiryDate = DateTime.UtcNow.AddHours(2);
+                    Random random = new Random();
+                    string verificationCode = random.Next(100000, 999999).ToString();
+
+                    user.PasswordResetCode = verificationCode; // Yeni sahəni istifadə edirik
+                    user.PasswordResetCodeExpiryDate = DateTime.UtcNow.AddMinutes(15);
                     await _context.SaveChangesAsync();
 
                     try
                     {
-                        var callbackUrl = Url.Action(nameof(ResetPassword), "Account",
-                                           new { email = user.Email, token = user.PasswordResetToken },
-                                           protocol: Request.Scheme);
-                        await _emailSender.SendEmailAsync(model.Email, "Şifrə Sıfırlama Sorğusu",
-                            $"Şifrənizi sıfırlamaq üçün <a href='{HtmlEncoder.Default.Encode(callbackUrl!)}'>buraya</a> klikləyin.");
-                        TempData["InfoMessage"] = "Şifrə sıfırlama təlimatları e-poçt ünvanınıza göndərildi.";
+                        await _emailSender.SendEmailAsync(model.Email, "Şifrə Sıfırlama Kodu",
+                            $"Şifrənizi sıfırlamaq üçün təsdiq kodunuz: <strong>{verificationCode}</strong><br>Bu kod 15 dəqiqə ərzində etibarlıdır.");
+                        TempData["InfoMessage"] = "E-poçt ünvanınıza şifrə sıfırlama kodu göndərildi.";
+                        return RedirectToAction(nameof(EnterResetCode), new { email = model.Email });
                     }
                     catch (Exception ex)
                     {
-                        _logger.LogError(ex, "Error sending password reset email to {Email}", model.Email);
-                        TempData["ErrorMessage"] = "E-poçt göndərilərkən xəta baş verdi.";
+                        _logger.LogError(ex, "Error sending password reset code to {Email}. Details: {ExceptionDetails}", model.Email, ex.ToString());
+                        TempData["ErrorMessage"] = "Kod göndərilərkən xəta baş verdi.";
                     }
                 }
                 else
                 {
-                    // İstifadəçinin mövcudluğunu bildirməmək daha təhlükəsizdir
-                    TempData["InfoMessage"] = "Əgər daxil etdiyiniz e-poçt ünvanı sistemdə mövcuddursa, sıfırlama təlimatları göndəriləcək.";
+                    TempData["InfoMessage"] = "Əgər daxil etdiyiniz e-poçt ünvanı sistemdə qeydiyyatdan keçmiş və təsdiqlənmişdirsə, sıfırlama kodu göndəriləcək.";
                 }
-                return View(model); // Formu yenidən göstər, mesaj TempData-da olacaq
+            
+                if (user == null || !user.EmailConfirmed)
+                {
+                    return RedirectToAction(nameof(ForgotPasswordConfirmation));
+                }
+                // Əgər kod göndərilməyibsə (catch bloku), yenə ForgotPasswordConfirmation.
+                if (TempData["ErrorMessage"] != null && !TempData.ContainsKey("InfoMessage"))
+                {
+                    return RedirectToAction(nameof(ForgotPasswordConfirmation));
+                }
+                // Əgər kod uğurla göndərilibsə, EnterResetCode-a yönləndirilir (yuxarıdakı try blokunda).
             }
             return View(model);
         }
 
         [HttpGet]
-        public async Task<IActionResult> ResetPassword(string? email, string? token)
+        public IActionResult ForgotPasswordConfirmation()
         {
-            if (email == null || token == null)
+           
+            return View();
+        }
+
+
+        [HttpGet]
+        public IActionResult EnterResetCode(string? email)
+        {
+            if (string.IsNullOrEmpty(email))
             {
-                TempData["ErrorMessage"] = "Yanlış şifrə sıfırlama linki.";
-                return RedirectToAction(nameof(Login));
+                TempData["ErrorMessage"] = "E-poçt ünvanı təyin edilməyib.";
+                return RedirectToAction(nameof(ForgotPassword));
             }
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.PasswordResetToken == token);
-            if (user == null || user.PasswordResetTokenExpiryDate < DateTime.UtcNow)
-            {
-                TempData["ErrorMessage"] = "Şifrə sıfırlama linki etibarsızdır və ya vaxtı bitib.";
-                return RedirectToAction(nameof(Login));
-            }
-            var model = new ResetPasswordViewModel { Token = token, Email = email };
+            var model = new EnterResetCodeViewModel { Email = email };
             return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EnterResetCode(EnterResetCodeViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email &&
+                                                                         u.PasswordResetCode == model.Code &&
+                                                                         u.PasswordResetCodeExpiryDate.HasValue &&
+                                                                         u.PasswordResetCodeExpiryDate.Value > DateTime.UtcNow);
+                if (user != null)
+                {
+                   
+                    return RedirectToAction(nameof(ResetPassword), new { email = model.Email, code = model.Code });
+                }
+                else
+                {
+                    ModelState.AddModelError(nameof(model.Code), "Təsdiq kodu yanlışdır, vaxtı bitib və ya belə bir tələb mövcud deyil.");
+                }
+            }
+            return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ResetPassword(string? email, string? code)
+        {
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(code))
+            {
+                TempData["ErrorMessage"] = "Şifrə sıfırlama tələbi üçün e-poçt və ya kod tapılmadı.";
+                return RedirectToAction(nameof(ForgotPassword));
+            }
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email &&
+                                                                     u.PasswordResetCode == code &&
+                                                                     u.PasswordResetCodeExpiryDate.HasValue &&
+                                                                     u.PasswordResetCodeExpiryDate.Value > DateTime.UtcNow);
+            if (user == null)
+            {
+                TempData["ErrorMessage"] = "Şifrə sıfırlama üçün istifadə edilən kod artıq etibarsızdır. Zəhmət olmasa yenidən cəhd edin.";
+                return RedirectToAction(nameof(EnterResetCode), new { email = email });
+            }
+            var viewModel = new ResetPasswordViewModel { Email = email, Code = code };
+            return View(viewModel);
         }
 
         [HttpPost]
@@ -301,112 +362,128 @@ namespace CaterManagementSystem.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email && u.PasswordResetToken == model.Token);
-                if (user != null && user.PasswordResetTokenExpiryDate >= DateTime.UtcNow)
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email &&
+                                                                         u.PasswordResetCode == model.Code &&
+                                                                         u.PasswordResetCodeExpiryDate.HasValue &&
+                                                                         u.PasswordResetCodeExpiryDate.Value >= DateTime.UtcNow);
+                if (user != null)
                 {
                     _passwordService.CreatePasswordHash(model.Password, out byte[] newPasswordHash, out byte[] newPasswordSalt);
                     user.PasswordHash = newPasswordHash;
                     user.PasswordSalt = newPasswordSalt;
-                    user.PasswordResetToken = null;
-                    user.PasswordResetTokenExpiryDate = null;
+                    user.PasswordResetCode = null; // Kodu istifadə etdikdən sonra sıfırlama hissəsi 
+                    user.PasswordResetCodeExpiryDate = null;
                     await _context.SaveChangesAsync();
-                    TempData["SuccessMessage"] = "Şifrəniz uğurla yeniləndi.";
+                    TempData["SuccessMessage"] = "Şifrəniz uğurla yeniləndi. İndi daxil ola bilərsiniz.";
                     return RedirectToAction(nameof(Login));
                 }
-                TempData["ErrorMessage"] = "Şifrə sıfırlama cəhdi uğursuz oldu. Link etibarsız və ya vaxtı bitib.";
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Şifrə sıfırlama cəhdi uğursuz oldu. Kod etibarsız və ya vaxtı bitib.");
+                }
             }
             return View(model);
         }
 
-        // === PROFİL REDAKTƏ ===
-        [Authorize] // Yalnız daxil olmuş istifadəçilər üçün
+        // update profile 
+        [Authorize] // Bu action yalnız daxil olmuş istifadəçilər üçün
         [HttpGet]
         public async Task<IActionResult> EditProfile()
         {
             var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (!int.TryParse(userIdStr, out int userId))
             {
-                return Unauthorized(); // Və ya BadRequest
+                return Unauthorized();
             }
-
             var user = await _context.Users.Include(u => u.UserDetails).FirstOrDefaultAsync(u => u.Id == userId);
             if (user == null) return NotFound();
-
-            var model = new EditProfileViewModel // EditProfileViewModel yaratmaq lazımdır
+            var viewModel = new EditProfileViewModel
             {
                 UserId = user.Id,
                 UserName = user.UserName,
-                Email = user.Email, // E-poçt redaktəsi mürəkkəbdir, yeni təsdiq tələb edə bilər
+                Email = user.Email,
                 FullName = user.FullName,
-                CurrentImagePath = user.UserDetails?.ImagePath ?? user.ImagePath // UserDetails-dən və ya User-dən al
+                CurrentImagePath = user.UserDetails?.ImagePath
             };
-            return View(model);
+            return View(viewModel);
         }
 
-        [Authorize]
+        [Authorize] // Bu action yalnız daxil olmuş istifadəçilər üçün
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditProfile(EditProfileViewModel model) // EditProfileViewModel lazımdır
+        public async Task<IActionResult> EditProfile(EditProfileViewModel model)
         {
             var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (!int.TryParse(userIdStr, out int currentUserId) || model.UserId != currentUserId)
             {
                 return Forbid();
             }
-
             if (!ModelState.IsValid)
             {
-                // CurrentImagePath-i modelə yenidən yüklə, çünki Post-da itir
-                var userForImage = await _context.Users.Include(u => u.UserDetails)
-                                                  .AsNoTracking()
-                                                  .FirstOrDefaultAsync(u => u.Id == model.UserId);
-                model.CurrentImagePath = userForImage?.UserDetails?.ImagePath ?? userForImage?.ImagePath;
+                if (string.IsNullOrEmpty(model.CurrentImagePath) && model.UserId > 0)
+                {
+                    var userForImage = await _context.Users.Include(u => u.UserDetails)
+                                                      .AsNoTracking()
+                                                      .FirstOrDefaultAsync(u => u.Id == model.UserId);
+                    model.CurrentImagePath = userForImage?.UserDetails?.ImagePath;
+                }
                 return View(model);
             }
-
             var user = await _context.Users.Include(u => u.UserDetails).FirstOrDefaultAsync(u => u.Id == model.UserId);
             if (user == null) return NotFound();
+            bool claimsNeedRefresh = false;
 
-            // İstifadəçi adı unikallığını yoxla (əgər dəyişibsə)
-            if (user.UserName != model.UserName && await _context.Users.AnyAsync(u => u.UserName == model.UserName && u.Id != user.Id))
+            if (user.UserName != model.UserName)
             {
-                ModelState.AddModelError(nameof(model.UserName), "Bu istifadəçi adı artıq mövcuddur.");
-                model.CurrentImagePath = user.UserDetails?.ImagePath ?? user.ImagePath;
+                if (await _context.Users.AnyAsync(u => u.UserName == model.UserName && u.Id != user.Id))
+                {
+                    ModelState.AddModelError(nameof(model.UserName), "Bu istifadəçi adı artıq mövcuddur.");
+                }
+                else
+                {
+                    user.UserName = model.UserName;
+                    claimsNeedRefresh = true;
+                }
+            }
+            if (user.Email != model.Email)
+            {
+                if (await _context.Users.AnyAsync(u => u.Email == model.Email && u.Id != user.Id))
+                {
+                    ModelState.AddModelError(nameof(model.Email), "Bu e-poçt ünvanı artıq başqa hesab tərəfindən istifadə olunur.");
+                }
+                else
+                {
+                    user.Email = model.Email;
+                    claimsNeedRefresh = true;
+                }
+            }
+            if (!ModelState.IsValid)
+            {
+                if (string.IsNullOrEmpty(model.CurrentImagePath) && user.UserDetails != null) model.CurrentImagePath = user.UserDetails.ImagePath;
                 return View(model);
             }
-            // E-poçt dəyişikliyi üçün də bənzər yoxlama və yeni təsdiq prosesi lazım ola bilər
-
-            user.UserName = model.UserName;
             user.FullName = model.FullName;
-            // user.Email = model.Email; // E-poçt dəyişikliyi üçün ehtiyatlı olun
+            if ((User.FindFirstValue(ClaimTypes.GivenName) ?? "") != (user.FullName ?? "")) claimsNeedRefresh = true;
 
-            if (user.UserDetails == null) // Əgər UserDetails yoxdursa, yarat
+            if (user.UserDetails == null)
             {
-                user.UserDetails = new UserDetails { UserId = user.Id };
-                _context.UserDetails.Add(user.UserDetails);
+                user.UserDetails = new UserDetails { UserId = user.Id, ImagePath = "default-avatar.png" };
             }
-
             if (model.Photo != null && model.Photo.Length > 0)
             {
-                string oldImageRelativePath = user.UserDetails.ImagePath ?? user.ImagePath ?? "";
-
+                string oldImageRelativePath = user.UserDetails.ImagePath ?? "";
                 string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", "profile_pictures");
-                if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
-
-                string uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(model.Photo.FileName);
+                Directory.CreateDirectory(uploadsFolder);
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileNameWithoutExtension(model.Photo.FileName) + Path.GetExtension(model.Photo.FileName);
                 string newFilePath = Path.Combine(uploadsFolder, uniqueFileName);
-
                 using (var fileStream = new FileStream(newFilePath, FileMode.Create))
                 {
                     await model.Photo.CopyToAsync(fileStream);
                 }
-                // Verilənlər bazasına nisbi yolu yaz
                 string newImageRelativePath = Path.Combine("uploads", "profile_pictures", uniqueFileName).Replace("\\", "/");
                 user.UserDetails.ImagePath = newImageRelativePath;
-                user.ImagePath = newImageRelativePath; // User-dəki ImagePath-i də yenilə
-
-                // Köhnə şəkli sil (əgər default deyilsə)
-                if (!string.IsNullOrEmpty(oldImageRelativePath) && oldImageRelativePath != "default-avatar.png")
+                claimsNeedRefresh = true;
+                if (!string.IsNullOrEmpty(oldImageRelativePath) && oldImageRelativePath != "default-avatar.png" && oldImageRelativePath != newImageRelativePath)
                 {
                     string oldFilePathFull = Path.Combine(_webHostEnvironment.WebRootPath, oldImageRelativePath.TrimStart('/'));
                     if (System.IO.File.Exists(oldFilePathFull))
@@ -416,61 +493,58 @@ namespace CaterManagementSystem.Controllers
                     }
                 }
             }
-
-            // Şifrə dəyişikliyi (əgər EditProfileViewModel-də varsa)
             if (!string.IsNullOrEmpty(model.NewPassword))
             {
-                if (string.IsNullOrEmpty(model.CurrentPassword) || !_passwordService.VerifyPasswordHash(model.CurrentPassword, user.PasswordHash, user.PasswordSalt))
+                if (string.IsNullOrEmpty(model.CurrentPassword))
+                {
+                    ModelState.AddModelError(nameof(model.CurrentPassword), "Yeni şifrə təyin etmək üçün hazırkı şifrənizi daxil etməlisiniz.");
+                }
+                else if (!_passwordService.VerifyPasswordHash(model.CurrentPassword, user.PasswordHash, user.PasswordSalt))
                 {
                     ModelState.AddModelError(nameof(model.CurrentPassword), "Hazırkı şifrə yanlışdır.");
-                    model.CurrentImagePath = user.UserDetails?.ImagePath ?? user.ImagePath;
+                }
+                if (!ModelState.IsValid)
+                {
+                    if (string.IsNullOrEmpty(model.CurrentImagePath) && user.UserDetails != null) model.CurrentImagePath = user.UserDetails.ImagePath;
                     return View(model);
                 }
                 _passwordService.CreatePasswordHash(model.NewPassword, out byte[] newHash, out byte[] newSalt);
                 user.PasswordHash = newHash;
                 user.PasswordSalt = newSalt;
+                claimsNeedRefresh = true;
             }
-
-
             try
             {
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Profil məlumatlarınız uğurla yeniləndi.";
-
-                // Əgər kritik claim-lər dəyişibsə, istifadəçini yenidən daxil et
-                bool claimsChanged = User.FindFirstValue(ClaimTypes.Name) != user.UserName ||
-                                     User.FindFirstValue(ClaimTypes.GivenName) != user.FullName ||
-                                     (model.Photo != null && User.FindFirstValue("ProfilePicture") != (user.UserDetails?.ImagePath ?? user.ImagePath));
-
-                if (claimsChanged || !string.IsNullOrEmpty(model.NewPassword))
+                if (claimsNeedRefresh)
                 {
                     await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-                    await SignInUserAsync(user, true); // isPersistent true ola bilər
+                    await SignInUserAsync(user, User.Identity?.IsAuthenticated ?? false);
                 }
                 return RedirectToAction(nameof(EditProfile));
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException ex)
             {
-                _logger.LogError("Concurrency error while editing profile for user {UserId}", model.UserId);
+                _logger.LogError(ex, "Concurrency error editing profile for {UserId}", model.UserId);
                 ModelState.AddModelError(string.Empty, "Məlumatlar eyni anda başqası tərəfindən dəyişdirilib. Zəhmət olmasa səhifəni yeniləyib təkrar cəhd edin.");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error editing profile for user {UserId}", model.UserId);
+                _logger.LogError(ex, "Error editing profile for {UserId}. Details: {ExceptionDetails}", model.UserId, ex.ToString());
                 ModelState.AddModelError(string.Empty, "Profil redaktə edilərkən xəta baş verdi.");
             }
-
-            model.CurrentImagePath = user.UserDetails?.ImagePath ?? user.ImagePath;
+            if (string.IsNullOrEmpty(model.CurrentImagePath) && user.UserDetails != null) model.CurrentImagePath = user.UserDetails.ImagePath;
             return View(model);
         }
 
-
-        // === ÇIXIŞ və İCAZƏ RƏDDİ ===
+        // logout və not allowed hisseleri 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            TempData["SuccessMessage"] = "Sistemdən uğurla çıxış etdiniz.";
             return RedirectToAction("Index", "Home");
         }
 

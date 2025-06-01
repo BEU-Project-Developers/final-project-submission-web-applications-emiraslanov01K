@@ -1,5 +1,5 @@
-﻿// Models/TeamMember.cs
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CaterManagementSystem.Models
 {
@@ -10,29 +10,17 @@ namespace CaterManagementSystem.Models
 
         [Required(ErrorMessage = "Komanda üzvünün adı tələb olunur.")]
         [StringLength(100)]
-        public string Name { get; set; } // Məs: "Henry"
-
-        [Required(ErrorMessage = "Vəzifəsi tələb olunur.")]
-        [StringLength(100)]
-        public string Position { get; set; } // Məs: "Decoration Chef", "Executive Chef"
+        public string Name { get; set; } // Məs: "Henry", "Jemes Born"
 
         [StringLength(255)]
-        public string? ImagePath { get; set; } // Komanda üzvünün şəkli
+        public string? ImagePath { get; set; } // Məs: "img/team-1.jpg"
 
-        [StringLength(500)]
-        public string? Bio { get; set; } // Qısa tərcümeyi-hal (şəkildə görünmür, amma faydalı ola bilər)
+        // Foreign Key üçün
+        [Required(ErrorMessage = "Peşə seçilməlidir.")]
+        public int ProfessionId { get; set; }
 
-        // Sosial media linkləri (opsional)
-        [StringLength(255)]
-        public string? FacebookUrl { get; set; }
-        [StringLength(255)]
-        public string? TwitterUrl { get; set; }
-        [StringLength(255)]
-        public string? InstagramUrl { get; set; }
-        [StringLength(255)]
-        public string? LinkedInUrl { get; set; }
-
-        public int DisplayOrder { get; set; }
-        public bool IsActive { get; set; } = true;
+        // Naviqasiya propertisi: Komanda üzvünün peşəsi
+        [ForeignKey("ProfessionId")]
+        public virtual Profession? Profession { get; set; }
     }
 }

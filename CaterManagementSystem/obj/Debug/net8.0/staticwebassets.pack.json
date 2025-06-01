@@ -1,200 +1,528 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
-      "PackagePath": "staticwebassets\\CaterManagementSystem.ctp7t6t53h.bundle.scp.css"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CaterManagementSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CaterManagementSystem.13htn813jz.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\All-Images\\57af0df5-fcf6-4c3b-9e77-28a75c9ef0ff.png",
+      "PackagePath": "staticwebassets\\All-Images\\57af0df5-fcf6-4c3b-9e77-28a75c9ef0ff.png"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\maps\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\01.html",
-      "PackagePath": "staticwebassets\\img\\01.html"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
-      "PackagePath": "staticwebassets\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\about.jpg",
-      "PackagePath": "staticwebassets\\img\\about.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\background-site.jpg",
-      "PackagePath": "staticwebassets\\img\\background-site.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-1.jpg",
-      "PackagePath": "staticwebassets\\img\\blog-1.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-2.jpg",
-      "PackagePath": "staticwebassets\\img\\blog-2.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\blog-3.jpg",
-      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-1.jpg",
-      "PackagePath": "staticwebassets\\img\\event-1.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-2.jpg",
-      "PackagePath": "staticwebassets\\img\\event-2.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-3.jpg",
-      "PackagePath": "staticwebassets\\img\\event-3.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-4.jpg",
-      "PackagePath": "staticwebassets\\img\\event-4.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-5.jpg",
-      "PackagePath": "staticwebassets\\img\\event-5.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-6.jpg",
-      "PackagePath": "staticwebassets\\img\\event-6.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-7.jpg",
-      "PackagePath": "staticwebassets\\img\\event-7.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\event-8.jpg",
-      "PackagePath": "staticwebassets\\img\\event-8.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\fact.jpg",
-      "PackagePath": "staticwebassets\\img\\fact.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\hero.png",
-      "PackagePath": "staticwebassets\\img\\hero.png"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-01.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-01.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-02.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-02.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-03.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-03.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-04.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-04.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-05.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-05.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\asa.png",
+      "PackagePath": "staticwebassets\\admin\\images\\asa.png"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-06.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-06.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\lockscreen-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-07.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-07.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\login-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-08.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-08.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\register-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\menu-09.jpg",
-      "PackagePath": "staticwebassets\\img\\menu-09.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face1.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-1.jpg",
-      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face10.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-2.jpg",
-      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face11.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-3.jpg",
-      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face12.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\team-4.jpg",
-      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face13.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-1.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face14.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-2.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face15.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-3.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face16.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\img\\testimonial-4.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face17.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\js\\main.js",
-      "PackagePath": "staticwebassets\\js\\main.js"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face18.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\animate\\animate.min.css",
-      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face19.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\counterup\\counterup.min.js",
-      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face2.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\easing\\easing.min.js",
-      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face20.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face21.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\images\\loading.gif",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face22.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
-      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face23.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.css"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face24.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face25.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.video.play.html",
-      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.video.play.html"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face26.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\waypoints\\waypoints.min.js",
-      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face27.jpg"
     },
     {
-      "Id": "C:\\Users\\Baku\\Desktop\\KamranProject\\C# Projects Uni\\CaterManagementSystem\\CaterManagementSystem\\wwwroot\\lib\\wow\\wow.min.js",
-      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\images\\software_village_cover.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\software_village_cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\01.html",
+      "PackagePath": "staticwebassets\\assets\\img\\01.html"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1000_F_979889215_XhVzMhSo5nrH6HqZMtx1dTOfYRUZX29p.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\background-site.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\background-site.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\event-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\event-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\event-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\event-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\event-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\event-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\event-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\fact.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\fact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\hero.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\menu-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\owlcarousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\owlcarousel\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\assets\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\uploads\\profile_pictures\\ec22134f-0d43-4c47-8baa-58871e435090_IMG-20240512-WA0037.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profile_pictures\\ec22134f-0d43-4c47-8baa-58871e435090_IMG-20240512-WA0037.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kamran\\source\\repos\\final-project-submission-web-applications-emiraslanov01K\\CaterManagementSystem\\wwwroot\\uploads\\team_images\\ef81b9a0-23f5-42d4-af57-eb1ae78073f6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team_images\\ef81b9a0-23f5-42d4-af57-eb1ae78073f6.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CaterManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

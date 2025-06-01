@@ -1,5 +1,5 @@
-﻿// Models/ServiceOffering.cs
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema; // Gerekirse
 
 namespace CaterManagementSystem.Models
 {
@@ -10,22 +10,19 @@ namespace CaterManagementSystem.Models
 
         [Required(ErrorMessage = "Xidmət adı tələb olunur.")]
         [StringLength(100)]
-        public string Title { get; set; } // Məs: "Wedding Services"
+        public string Title { get; set; }
 
-        [Required(ErrorMessage = "Xidmət açıqlaması tələb olunur.")]
+        [Required(ErrorMessage = "Xidmət qısa açıqlaması tələb olunur.")]
         [StringLength(500)]
-        public string Description { get; set; }
+        public string Description { get; set; } // Qısa təsvir (kartlarda görünən)
 
         [StringLength(255)]
-        public string? ImagePath { get; set; } // Hər xidmət üçün ayrıca bir şəkil ola bilər (şəkildə görünmür)
+        public string? ImagePath { get; set; } // İkon sinfi (məs: "fas fa-cheese") və ya şəkil yolu
 
         [StringLength(50)]
-        public string ButtonText { get; set; } = "Read More"; // Default dəyər
+        public string ButtonText { get; set; } = "Read More";
 
-        [StringLength(255)]
-        public string? ButtonUrl { get; set; } // "Read More" düyməsinin yönləndirəcəyi URL
-
-        public int DisplayOrder { get; set; } // Saytda göstərilmə sırası
-        public bool IsActive { get; set; } = true; // Aktiv və ya passiv olması
+        // Navigation property for the detailed description
+        public virtual ServiceDescription? ServiceDescription { get; set; }
     }
 }

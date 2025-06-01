@@ -18,7 +18,7 @@ namespace CaterManagementSystem.ViewModels
         [Required(ErrorMessage = "Tam ad tələb olunur.")]
         [StringLength(150, ErrorMessage = "Tam ad maksimum 150 simvol ola bilər.")]
         [Display(Name = "Tam Adınız")]
-        public string FullName { get; set; } // Əlavə edildi
+        public string FullName { get; set; }
 
         [Required(ErrorMessage = "Şifrə tələb olunur.")]
         [StringLength(100, ErrorMessage = "{0} ən azı {2} və ən çox {1} simvol uzunluğunda olmalıdır.", MinimumLength = 6)]

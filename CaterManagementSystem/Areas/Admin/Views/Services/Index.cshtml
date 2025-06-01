@@ -1,0 +1,144 @@
+﻿@model IEnumerable<CaterManagementSystem.Models.Service>
+@{
+    ViewData["Title"] = "Xidmətlər";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"]</h4>
+                        <p>
+                            <a asp-action="Create" class="btn btn-success">
+                                <i class="mdi mdi-plus-circle-outline"></i> Yeni Xidmət Yarat
+                            </a>
+                        </p>
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+                        }
+
+                        <div class="table-responsive pt-3">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Şəkil</th>
+                                        <th>Başlıq</th>
+                                        <th>Qısa Təsvir</th>
+                                        <th>Detal Başlığı</th>
+                                        <th>Qonaq Sayı</th>
+                                        <th style="width:150px;">Əməliyyatlar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>
+                                                @if (!string.IsNullOrEmpty(item.ImagePath))
+                                                {
+                                                    <img src="@Url.Content("~/" + item.ImagePath)" alt="@item.Title" style="width:70px; height:70px; object-fit:cover; border-radius:5px;"
+                                                         class="img-thumbnail" onclick="openModal('@Url.Content("~/" + item.ImagePath)')" />
+                                                }
+                                                else
+                                                {
+                                                    <i class="mdi mdi-image-area mdi-24px text-muted"></i>
+                                                }
+                                            </td>
+                                            <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.ServiceDescription.Title)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.ServiceDescription.GuestCount) nəfər</td>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning" title="Redaktə Et"><i class="mdi mdi-pencil"></i></a>
+                                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info" title="Detallar"><i class="mdi mdi-eye"></i></a>
+                                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" title="Sil"><i class="mdi mdi-delete"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal HTML (Index.cshtml-dəki kimi) -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">×</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+@section Styles {
+ <!-- Əgər layoutda Styles section varsa -->
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1050;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: auto;
+            max-width: 80%;
+            max-height: 80vh;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+            .close:hover, .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+        .img-thumbnail[onclick] {
+            cursor: pointer;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        function openModal(imagePath) {
+            document.getElementById("imageModal").style.display = "block";
+            document.getElementById("modalImage").src = imagePath;
+        }
+        function closeModal() {
+            document.getElementById("imageModal").style.display = "none";
+        }
+        var modal = document.getElementById("imageModal");
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
+}

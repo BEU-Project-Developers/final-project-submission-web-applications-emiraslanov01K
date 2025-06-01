@@ -1,0 +1,46 @@
+﻿@model CaterManagementSystem.Models.Event
+@{
+    ViewData["Title"] = "Yeni Tədbir Yarat";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"]</h4>
+                        <form asp-action="Create" method="post" enctype="multipart/form-data">
+                            @Html.AntiForgeryToken()
+                            @* ModelOnly yerinə All istifadə edərək Controller-də əlavə edilən "Photo" xətasını da göstərə bilərik *@
+                            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                            <div class="form-group">
+                                <label asp-for="Title" class="control-label"></label>
+                                <input asp-for="Title" class="form-control" placeholder="Məs: Toy Mərasimi" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Photo">Əsas Şəkil</label>
+                                <input asp-for="Photo" type="file" class="form-control" accept="image/*" />
+                                <span asp-validation-for="Photo" class="text-danger"></span>
+                            </div>
+
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-primary me-2">Yarat</button>
+                                <a asp-action="Index" class="btn btn-light">Ləğv Et</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

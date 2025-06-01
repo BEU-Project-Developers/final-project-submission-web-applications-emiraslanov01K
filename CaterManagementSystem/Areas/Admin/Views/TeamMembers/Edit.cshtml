@@ -1,0 +1,67 @@
+﻿@model CaterManagementSystem.Models.TeamMember
+@{
+    ViewData["Title"] = "Komanda Üzvünü Redaktə Et";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"] (ID: @Model.Id)</h4>
+                        <form asp-action="Edit" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" asp-for="Id" />
+                            <input type="hidden" asp-for="ImagePath" /> <!-- Mövcud şəkil yolunu qorumaq üçün -->
+                            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                            <div class="form-group">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="ProfessionId" class="control-label">Peşə</label>
+                                <select asp-for="ProfessionId" class="form-control" asp-items="ViewBag.ProfessionId"></select>
+                                <span asp-validation-for="ProfessionId" class="text-danger"></span>
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(Model.ImagePath))
+                            {
+                                <div class="form-group">
+                                    <label>Hazırkı Şəkil:</label><br />
+                                    <img src="@Url.Content("~/" + Model.ImagePath)" alt="@Model.Name"
+                                         style="max-width: 100px; height: auto; border:1px solid #ccc; padding:3px; border-radius: 50%;" />
+                                </div>
+                            }
+                            <div class="form-group">
+                                <label for="Photo" class="control-label">Şəkli Dəyiş (Opsional)</label>
+                                <input name="Photo" type="file" class="form-control" accept="image/*" />
+                                @if (ViewData.ModelState["Photo"] != null)
+                                {
+                                    foreach (var error in ViewData.ModelState["Photo"].Errors)
+                                    {
+                                        <span class="text-danger">@error.ErrorMessage</span>
+                                    }
+                                }
+                            </div>
+
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-primary me-2">Yenilə</button>
+                                <a asp-action="Index" class="btn btn-light">Ləğv Et</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

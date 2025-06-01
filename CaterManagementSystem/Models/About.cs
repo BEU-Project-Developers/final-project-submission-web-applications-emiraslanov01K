@@ -1,5 +1,6 @@
 ﻿// Models/AboutUsSection.cs
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CaterManagementSystem.Models
 {
@@ -22,6 +23,8 @@ namespace CaterManagementSystem.Models
 
         [StringLength(255)]
         public string? ImagePath { get; set; } // Bölmə üçün əsas şəkil (sol tərəfdəki böyük şəkil)
+        [NotMapped]
+        public IFormFile Photo { get; set; }
 
         // Kiçik xüsusiyyət mətnləri (bunları ayrı bir cədvələ də çıxarmaq olar, əgər çoxdursa)
         [StringLength(100)]

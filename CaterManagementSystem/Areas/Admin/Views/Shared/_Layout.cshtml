@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cater Management Admin</title> <!-- Başlığı dəyişdim -->
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/admin/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/admin/vendors/base/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/admin/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/admin/images/favicon.png" />
+
+    @* YENİ ƏLAVƏ EDİLƏN SƏTİR (Styles Section) *@
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="navbar-brand-wrapper d-flex justify-content-center">
+                <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
+                    <a class="navbar-brand brand-logo" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Cater Admin</a>
+                    <a class="navbar-brand brand-logo-mini" asp-area="Admin" asp-controller="Dashboard" asp-action="Index"><img src="~/admin/images/logo-mini.svg" alt="logo" /></a>
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                        <span class="mdi mdi-sort-variant"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                @* Navbar-ın sağ tərəfində istifadəçi məlumatları və çıxış üçün bir partial view əlavə etmək daha yaxşıdır *@
+                @* Məsələn: @await Html.PartialAsync("_AdminLoginPartial") *@
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Panel</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="About" asp-action="Index">
+                            <i class="mdi mdi-information-outline menu-icon"></i>
+                            <span class="menu-title">Haqqımızda</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Services" asp-action="Index">
+                            <i class="mdi mdi-briefcase-check menu-icon"></i>
+                            <span class="menu-title">Xidmətlər</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Professions" asp-action="Index">
+                            <i class="mdi mdi-account-star-outline menu-icon"></i>
+                            <span class="menu-title">Peşələr</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="TeamMembers" asp-action="Index">
+                            @* TeamMembersController yaradıldıqdan sonra aktivləşdirin *@
+                            <i class="mdi mdi-account-multiple-outline menu-icon"></i>
+                            <span class="menu-title">Komanda Üzvləri</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Events" asp-action="Index">
+                            @* EventsController yaradıldıqdan sonra aktivləşdirin *@
+                            <i class="mdi mdi-calendar-star menu-icon"></i>
+                            <span class="menu-title">Tədbirlər</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Bookings" asp-action="Index">
+                            @* BookingsController üçün Admin Index action-ı yaradıldıqdan sonra *@
+                            <i class="mdi mdi-calendar-check menu-icon"></i>
+                            <span class="menu-title">Rezervlər</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Users" asp-action="Index">
+                            @* UsersController yaradıldıqdan sonra *@
+                            <i class="mdi mdi-account-group-outline menu-icon"></i>
+                            <span class="menu-title">İstifadəçilər</span>
+                        </a>
+                    </li>
+                   
+                    @* Administrator çıxışı üçün link (əgər navbar-da yoxdursa) *@
+                    <li class="nav-item">
+                        <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" id="adminLogoutFormSidebar">
+                            @Html.AntiForgeryToken()
+                            <a class="nav-link" href="javascript:document.getElementById('adminLogoutFormSidebar').submit();">
+                                <i class="mdi mdi-logout menu-icon"></i>
+                                <span class="menu-title">Çıxış</span>
+                            </a>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            @TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    @if (TempData["InfoMessage"] != null)
+                    {
+                        <div class="alert alert-info alert-dismissible fade show" role="alert">
+                            @TempData["InfoMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    @RenderBody()
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © CaterManagementSystem @DateTime.Now.Year</span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="~/admin/vendors/base/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <script src="~/admin/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/admin/vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="~/admin/js/off-canvas.js"></script>
+    <script src="~/admin/js/hoverable-collapse.js"></script>
+    <script src="~/admin/js/template.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="~/admin/js/dashboard.js"></script>
+    <script src="~/admin/js/data-table.js"></script>
+    <script src="~/admin/js/jquery.dataTables.js"></script>
+    <script src="~/admin/js/dataTables.bootstrap4.js"></script>
+    <!-- End custom js for this page-->
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

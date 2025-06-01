@@ -1,0 +1,84 @@
+﻿@model CaterManagementSystem.Areas.Admin.ViewModels.UserEditViewModel
+@{
+    ViewData["Title"] = "İstifadəçini Redaktə Et";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-8 grid-margin stretch-card mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@ViewData["Title"]: @Model.UserName (ID: @Model.Id)</h4>
+                        <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" asp-for="Id" />
+                            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                            <div class="form-group">
+                                <label asp-for="UserName" class="control-label"></label>
+                                <input asp-for="UserName" class="form-control" />
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="FullName" class="control-label"></label>
+                                <input asp-for="FullName" class="form-control" />
+                                <span asp-validation-for="FullName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label"></label>
+                                <input asp-for="Email" type="email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group form-check">
+                                <input asp-for="EmailConfirmed" class="form-check-input" />
+                                <label asp-for="EmailConfirmed" class="form-check-label"></label>
+                            </div>
+
+                            <hr />
+                            <h5 class="text-primary">Rollar</h5>
+                            <div class="form-group">
+                                <label asp-for="SelectedRoles" class="control-label">İstifadəçi Rolları</label>
+                                @if (Model.AllRoles != null)
+                                {
+                                    @* Multiselect üçün bootstrap-select və ya oxşar bir kitabxana istifadə etmək daha yaxşıdır *@
+                                    @* Sadəlik üçün checkbox-lar ilə göstərirəm *@
+                                    <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ced4da; padding: 10px; border-radius: .25rem;">
+                                        @foreach (var role in Model.AllRoles)
+                                        {
+                                            <div class="form-check">
+                                                <input type="checkbox" name="SelectedRoles" value="@role.Value"
+                                                       class="form-check-input" id="role-@role.Value"
+                                                @(Model.UserRoles.Contains(role.Value) ? "checked" : "") />
+                                                <label class="form-check-label" for="role-@role.Value">@role.Text</label>
+                                            </div>
+                                        }
+                                    </div>
+                                    <small class="form-text text-muted">Birdən çox rol seçə bilərsiniz.</small>
+                                }
+                                else
+                                {
+                                    <p class="text-warning">Sistemdə heç bir rol tapılmadı.</p>
+                                }
+                                <span asp-validation-for="SelectedRoles" class="text-danger"></span>
+                            </div>
+
+
+                            <div class="mt-4">
+                                <button type="submit" class="btn btn-primary me-2">Yenilə</button>
+                                <a asp-action="Index" class="btn btn-light">Ləğv Et</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    @* Əgər bootstrap-select və ya başqa bir multiselect kitabxanası istifadə edirsinizsə, burada onun üçün skriptlər *@
+}

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace CaterManagementSystem.Services // Namespace-i layihənizə uyğunlaşdırın
+namespace CaterManagementSystem.Services 
 {
     public interface IEmailSender
     {
