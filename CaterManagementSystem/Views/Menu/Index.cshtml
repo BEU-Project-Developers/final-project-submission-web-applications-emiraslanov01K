@@ -1,12 +1,4 @@
-﻿@model IEnumerable<CaterManagementSystem.Models.MenuItem>
-@{
-    ViewData["Title"] = "Menyu";
-    // For data-wow-delay sequencing
-    var delayCounter = 0;
-    var delayIncrement = 0.1;
-}
-
-<!-- Modal Search Start -->
+﻿<!-- Modal Search Start -->
 <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content rounded-0">
@@ -27,10 +19,10 @@
 <!-- Hero Start -->
 <div class="container-fluid bg-light py-6 my-6 mt-0">
     <div class="container text-center animated bounceInDown">
-        <h1 class="display-1 mb-4">Menyu</h1>
+        <h1 class="display-1 mb-4">Menu</h1>
         <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
-            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
-            <li class="breadcrumb-item text-dark active" aria-current="page">Mövcud Yeməklər</li>
+
+            <li class="breadcrumb-item text-dark" aria-current="page">Foods Available</li>
         </ol>
     </div>
 </div>
@@ -39,77 +31,574 @@
 <div class="container-fluid menu bg-light py-6 my-6">
     <div class="container">
         <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
-            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Menyumuz</small>
-            <h1 class="display-5 mb-5">Aşpazın Xüsusi Təklifləri</h1>
+            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Menu</small>
+            <h1 class="display-5 mb-5">Chef's Specialties</h1>
         </div>
         <div class="tab-class text-center">
-            @*
-            Əgər menyu kateqoriyaları (tabları) olacaqsa, buraya naviqasiya əlavə oluna bilər:
-            <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
-                <li class="nav-item">
-                    <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#main-menu">
-                        <span class="text-dark" style="width: 150px;">Main Menu</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#starters">
-                        <span class="text-dark" style="width: 150px;">Starters</span>
-                    </a>
-                </li>
-                 ... digər tablar ...
-            </ul>
-            *@
             <div class="tab-content">
                 <div id="main-menu" class="tab-pane fade show p-0 active">
-                    @if (Model != null && Model.Any())
-                    {
-                        <div class="row g-4">
-                            @foreach (var item in Model)
-                            {
-                                // Reset delay counter if it gets too high for variety, e.g., after 8 items (0.1s to 0.8s)
-                                if (delayCounter >= 8)
-                                {
-                                    delayCounter = 0;
-                                }
-                                var currentDelay = (delayCounter * delayIncrement) + delayIncrement; // Starts from 0.1s
-
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="@(currentDelay.ToString("0.0", System.Globalization.CultureInfo.InvariantCulture))s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        @if (!string.IsNullOrEmpty(item.ImagePath))
-                                        {
-                                            <img class="flex-shrink-0 img-fluid rounded-circle" style="width: 80px; height: 80px; object-fit: cover;" src="~/@item.ImagePath" alt="@item.Name">
-                                        }
-                                        else
-                                        {
-                                            <img class="flex-shrink-0 img-fluid rounded-circle" style="width: 80px; height: 80px; object-fit: cover;" src="~/img/menu/default-food.png" alt="Default food item"> @* Ehtiyat şəkil *@
-                                        }
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>@item.Name</h4>
-                                                <h4 class="text-primary">$@item.Price.ToString("N2")</h4> @* N2 formatı 12.00 kimi göstərəcək *@
-                                            </div>
-                                            <p class="mb-0">@item.Description</p>
-                                        </div>
+                    <div class="row g-4">
+                        <!-- Item 1 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-01.jpg" alt="Paneer Tikka">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Paneer Tikka</h4>
+                                        <h4 class="text-primary">$12</h4>
                                     </div>
+                                    <p class="mb-0">Marinated cottage cheese grilled with bell peppers, served with mint chutney.</p>
                                 </div>
-                                delayCounter++;
-                            }
+                            </div>
                         </div>
-                    }
-                    else
-                    {
-                        <div class="text-center">
-                            <p>Menyuda hazırda heç bir yemək mövcud deyil. Zəhmət olmasa daha sonra yenidən yoxlayın.</p>
+
+                        <!-- Item 2 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-02.jpg" alt="Sweet Potato Fries">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Sweet Potato Fries</h4>
+                                        <h4 class="text-primary">$8</h4>
+                                    </div>
+                                    <p class="mb-0">Crispy sweet potato wedges with chipotle aioli dipping sauce.</p>
+                                </div>
+                            </div>
                         </div>
-                    }
+
+                        <!-- Item 3 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-03.jpg" alt="Sabudana Tikki">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Sabudana Tikki</h4>
+                                        <h4 class="text-primary">$10</h4>
+                                    </div>
+                                    <p class="mb-0">Crispy tapioca pearl patties with peanuts and Indian spices.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-04.jpg" alt="Margherita Pizza">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Margherita Pizza</h4>
+                                        <h4 class="text-primary">$16</h4>
+                                    </div>
+                                    <p class="mb-0">Classic wood-fired pizza with fresh mozzarella, basil, and tomato sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 5 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-05.jpg" alt="Maple Bacon">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Maple Bacon</h4>
+                                        <h4 class="text-primary">$14</h4>
+                                    </div>
+                                    <p class="mb-0">Thick-cut bacon glazed with maple syrup and black pepper.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 6 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-06.jpg" alt="Lemon Herb Chicken">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Lemon Herb Chicken</h4>
+                                        <h4 class="text-primary">$18</h4>
+                                    </div>
+                                    <p class="mb-0">Grilled chicken breast marinated in lemon, garlic, and fresh herbs.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 7 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.7s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-07.jpg" alt="Blooming Onion">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Blooming Onion</h4>
+                                        <h4 class="text-primary">$11</h4>
+                                    </div>
+                                    <p class="mb-0">Crispy fried onion blossom with spicy dipping sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 8 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.8s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-08.jpg" alt="Chocolate Lava Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Chocolate Lava Cake</h4>
+                                        <h4 class="text-primary">$9</h4>
+                                    </div>
+                                    <p class="mb-0">Warm chocolate cake with molten center, served with vanilla ice cream.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 9 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-01.jpg" alt="Vegetable Biryani">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Vegetable Biryani</h4>
+                                        <h4 class="text-primary">$15</h4>
+                                    </div>
+                                    <p class="mb-0">Fragrant basmati rice cooked with mixed vegetables and aromatic spices.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 10 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-02.jpg" alt="Butternut Squash Soup">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Butternut Squash Soup</h4>
+                                        <h4 class="text-primary">$7</h4>
+                                    </div>
+                                    <p class="mb-0">Creamy roasted squash soup with a hint of nutmeg and cinnamon.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 11 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-03.jpg" alt="Tandoori Chicken">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Tandoori Chicken</h4>
+                                        <h4 class="text-primary">$17</h4>
+                                    </div>
+                                    <p class="mb-0">Chicken marinated in yogurt and spices, cooked in clay oven.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 12 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-04.jpg" alt="Pepperoni Pizza">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Pepperoni Pizza</h4>
+                                        <h4 class="text-primary">$18</h4>
+                                    </div>
+                                    <p class="mb-0">Classic pizza with spicy pepperoni and mozzarella cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 13 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-05.jpg" alt="Beef Sliders">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Beef Sliders</h4>
+                                        <h4 class="text-primary">$14</h4>
+                                    </div>
+                                    <p class="mb-0">Mini burgers with caramelized onions and special sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 14 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-06.jpg" alt="Grilled Salmon">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Grilled Salmon</h4>
+                                        <h4 class="text-primary">$22</h4>
+                                    </div>
+                                    <p class="mb-0">Fresh salmon fillet with lemon-dill sauce and seasonal vegetables.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 15 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.7s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-07.jpg" alt="Onion Rings">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Onion Rings</h4>
+                                        <h4 class="text-primary">$7</h4>
+                                    </div>
+                                    <p class="mb-0">Crispy beer-battered onion rings with ranch dressing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 16 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.8s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-08.jpg" alt="Cheesecake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>New York Cheesecake</h4>
+                                        <h4 class="text-primary">$10</h4>
+                                    </div>
+                                    <p class="mb-0">Classic creamy cheesecake with berry compote topping.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 17 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-01.jpg" alt="Mushroom Risotto">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Mushroom Risotto</h4>
+                                        <h4 class="text-primary">$16</h4>
+                                    </div>
+                                    <p class="mb-0">Creamy Arborio rice with wild mushrooms and parmesan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 18 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-02.jpg" alt="Caesar Salad">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Caesar Salad</h4>
+                                        <h4 class="text-primary">$12</h4>
+                                    </div>
+                                    <p class="mb-0">Romaine lettuce with parmesan, croutons, and classic Caesar dressing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 19 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-03.jpg" alt="Beef Burger">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Gourmet Beef Burger</h4>
+                                        <h4 class="text-primary">$15</h4>
+                                    </div>
+                                    <p class="mb-0">Angus beef patty with cheddar, bacon, and special sauce on brioche bun.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 20 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-04.jpg" alt="Pasta Carbonara">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Pasta Carbonara</h4>
+                                        <h4 class="text-primary">$17</h4>
+                                    </div>
+                                    <p class="mb-0">Spaghetti with creamy egg sauce, pancetta, and parmesan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Items 21-40 -->
+                        <!-- Item 21 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-05.jpg" alt="Beef Wellington">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Beef Wellington</h4>
+                                        <h4 class="text-primary">$34</h4>
+                                    </div>
+                                    <p class="mb-0">Prime beef tenderloin wrapped in puff pastry with mushroom duxelles.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 22 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-06.jpg" alt="Lobster Roll">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Lobster Roll</h4>
+                                        <h4 class="text-primary">$24</h4>
+                                    </div>
+                                    <p class="mb-0">Chilled lobster meat with light mayo on a buttered brioche roll.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 23 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-07.jpg" alt="Truffle Fries">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Truffle Fries</h4>
+                                        <h4 class="text-primary">$11</h4>
+                                    </div>
+                                    <p class="mb-0">Hand-cut fries tossed with truffle oil and parmesan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 24 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-08.jpg" alt="Crème Brûlée">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Crème Brûlée</h4>
+                                        <h4 class="text-primary">$9</h4>
+                                    </div>
+                                    <p class="mb-0">Classic vanilla custard with caramelized sugar crust.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 25 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-01.jpg" alt="Chicken Tikka Masala">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Chicken Tikka Masala</h4>
+                                        <h4 class="text-primary">$16</h4>
+                                    </div>
+                                    <p class="mb-0">Tandoori chicken in creamy tomato sauce with basmati rice.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 26 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-02.jpg" alt="French Onion Soup">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>French Onion Soup</h4>
+                                        <h4 class="text-primary">$8</h4>
+                                    </div>
+                                    <p class="mb-0">Caramelized onions in rich beef broth with gruyère crouton.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 27 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.7s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-03.jpg" alt="Rack of Lamb">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Rack of Lamb</h4>
+                                        <h4 class="text-primary">$28</h4>
+                                    </div>
+                                    <p class="mb-0">Herb-crusted lamb with mint jus and roasted vegetables.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 28 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.8s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-04.jpg" alt="BBQ Ribs">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>BBQ Ribs</h4>
+                                        <h4 class="text-primary">$19</h4>
+                                    </div>
+                                    <p class="mb-0">Slow-cooked pork ribs with house BBQ sauce and coleslaw.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 29 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-05.jpg" alt="Caprese Salad">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Caprese Salad</h4>
+                                        <h4 class="text-primary">$10</h4>
+                                    </div>
+                                    <p class="mb-0">Fresh mozzarella, tomatoes, and basil with balsamic glaze.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 30 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-06.jpg" alt="Shrimp Scampi">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Shrimp Scampi</h4>
+                                        <h4 class="text-primary">$21</h4>
+                                    </div>
+                                    <p class="mb-0">Jumbo shrimp in garlic butter sauce over linguine.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 31 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-07.jpg" alt="Bruschetta">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Bruschetta</h4>
+                                        <h4 class="text-primary">$7</h4>
+                                    </div>
+                                    <p class="mb-0">Toasted bread topped with tomatoes, garlic, and fresh basil.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 32 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-08.jpg" alt="Tiramisu">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Tiramisu</h4>
+                                        <h4 class="text-primary">$9</h4>
+                                    </div>
+                                    <p class="mb-0">Italian dessert with layers of coffee-soaked ladyfingers.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 33 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-01.jpg" alt="Vegetable Lasagna">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Vegetable Lasagna</h4>
+                                        <h4 class="text-primary">$15</h4>
+                                    </div>
+                                    <p class="mb-0">Layers of pasta, roasted vegetables, and three cheeses.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 34 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-02.jpg" alt="Miso Glazed Salmon">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Miso Glazed Salmon</h4>
+                                        <h4 class="text-primary">$20</h4>
+                                    </div>
+                                    <p class="mb-0">Salmon fillet with sweet miso glaze and sesame seeds.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 35 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.7s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-03.jpg" alt="Mozzarella Sticks">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Mozzarella Sticks</h4>
+                                        <h4 class="text-primary">$8</h4>
+                                    </div>
+                                    <p class="mb-0">Breaded mozzarella sticks with marinara sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 36 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.8s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-04.jpg" alt="Chicken Wings">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Chicken Wings</h4>
+                                        <h4 class="text-primary">$12</h4>
+                                    </div>
+                                    <p class="mb-0">Crispy wings with choice of buffalo, BBQ, or teriyaki sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 37 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-05.jpg" alt="Beef Carpaccio">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Beef Carpaccio</h4>
+                                        <h4 class="text-primary">$17</h4>
+                                    </div>
+                                    <p class="mb-0">Thinly sliced raw beef with arugula and parmesan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 38 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-06.jpg" alt="Ratatouille">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Ratatouille</h4>
+                                        <h4 class="text-primary">$14</h4>
+                                    </div>
+                                    <p class="mb-0">Provençal vegetable stew with eggplant, zucchini, and peppers.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 39 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-07.jpg" alt="Apple Pie">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Apple Pie</h4>
+                                        <h4 class="text-primary">$8</h4>
+                                    </div>
+                                    <p class="mb-0">Classic American pie with cinnamon apples and flaky crust.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 40 -->
+                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded-circle" src="assets/img/menu-08.jpg" alt="Espresso Martini">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                        <h4>Espresso Martini</h4>
+                                        <h4 class="text-primary">$11</h4>
+                                    </div>
+                                    <p class="mb-0">Vodka, coffee liqueur, and fresh espresso cocktail.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                @*
-                Digər tab-pane-lər (əgər menyu kateqoriyaları əlavə olunarsa):
-                <div id="starters" class="tab-pane fade p-0">
-                    <!-- Starters will be listed here -->
-                </div>
-                ...
-                *@
             </div>
         </div>
     </div>
